@@ -5,3 +5,4 @@
 (load-library "user-init-packages.el")
 (load-library "user-init-zenburn.el")
 (load-library "user-init-auto-complete.el")
+(load-library "user-init-multiple-cursors.el")

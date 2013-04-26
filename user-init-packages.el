@@ -20,7 +20,9 @@
 
 ;; install these packages if they are not there.
 (defvar my-packages '(zenburn-theme
-		      auto-complete))
+		      auto-complete
+		      multiple-cursors
+		      web-mode))
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
