@@ -10,5 +10,6 @@
 (load-library "user-init-flycheck.el")
 (load-library "user-init-jedi.el")
 (load-library "user-init-yasnippet.el")
+(load-library "user-init-python-mode.el")
 ;;; init.el ends here
 
