@@ -9,4 +9,3 @@
 ;; 	      (global-auto-complete-mode t)))
 
 (message "config auto-complete")
-

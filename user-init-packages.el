@@ -13,8 +13,6 @@
 
 (package-initialize)
 
-
-
 (when (not package-archive-contents)
   (package-refresh-contents))
 
@@ -22,7 +20,12 @@
 (defvar my-packages '(zenburn-theme
 		      auto-complete
 		      multiple-cursors
-		      web-mode))
+		      web-mode
+		      jedi
+		      flycheck
+		      virtualenv
+		      yasnippet
+		      python-mode))
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
