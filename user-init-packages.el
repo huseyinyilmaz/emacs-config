@@ -33,3 +33,5 @@
     (package-install p)))
 
 (message "config packages")
+(provide 'user-init-packages)
+;;; user-init-packages.el ends here

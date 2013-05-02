@@ -46,4 +46,6 @@
 (ido-mode t)
 (setq ido-enable-flex-matching t) ;; enable fuzzy matching
 
-(message "config defaults")
+(message "config default")
+(provide 'user-init-default)
+;;; user-init-default.el ends here
