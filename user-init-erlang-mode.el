@@ -2,11 +2,7 @@
 
 ;;; Code:
 (require 'cl)
-
-;; erlang root directory that will be used
-;; erlang-mode will be also used from this distrubition
-(defvar erlang-root-dir "/usr/lib/erlang")
-
+;; erlang-root-dir variable is set in user-init-config
 (add-hook 'after-init-hook
 	  #'(lambda ()
 	      ;; if erlang root does not exists

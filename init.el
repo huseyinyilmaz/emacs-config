@@ -1,8 +1,8 @@
-;; (defvar user-default-config-dir "~/.emacs.d")
-;; (add-to-list 'load-path user-default-config-dir)
+;;; Code:
 (add-to-list 'load-path "~/.emacs.d")
 
 ;; Init packages
+(require 'user-init-config)
 (require 'user-init-default)
 (require 'user-init-packages)
 (require 'user-init-zenburn)

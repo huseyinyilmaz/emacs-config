@@ -16,18 +16,8 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-;; install these packages if they are not there.
-(defvar my-packages '(zenburn-theme
-		      auto-complete
-		      multiple-cursors
-		      web-mode
-		      jedi
-		      flycheck
-		      virtualenv
-		      yasnippet
-		      python-mode))
-
-(dolist (p my-packages)
+;; install packages that is stored in user-packages variable
+(dolist (p user-packages)
   (when (not (package-installed-p p))
     (package-refresh-contents)
     (package-install p)))

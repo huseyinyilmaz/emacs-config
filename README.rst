@@ -13,6 +13,12 @@ Install python requirements from requirements.pip file.
 
    $ sudo pip install -r requirements.pip
 
+optional erlang requirements
+----------------------------
+This configuration uses erlang-mode that comes with erlang distribution. So if you are going to
+do erlang development you might need to change erlang-root-dir variable.
+(it is set in user-init-config.el file)
+
 Installation
 ============
 
