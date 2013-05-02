@@ -6,8 +6,8 @@ Requirements
 ============
 This emacs configuration is for emacs 24 or higher.
 
-python requirements
--------------------
+optional python requirements
+----------------------------
 Install python requirements from requirements.pip file.
 ::
 
@@ -22,3 +22,10 @@ Just clone repository as ~/.emacs.d. When you start your emacs, emacs will downl
 
    $ git clone git://github.com/huseyinyilmaz/emacs-package-config.git .emacs.d
    $ emacs
+
+
+Customization
+=============
+
+You can add any customization you need to user-init-local.el file
+This file will run after the rest of the system is initialized.
