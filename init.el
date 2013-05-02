@@ -14,9 +14,10 @@
 (require 'user-init-yasnippet)
 (require 'user-init-python-mode)
 (require 'user-init-erlang-mode)
+(require 'user-init-octave-mode)
+
 ;; run local configuration after rest of the system is initialized
 (add-hook 'after-init-hook
 	  #'(lambda ()
 	      (require 'user-init-locals)))
 ;;; init.el ends here
-
