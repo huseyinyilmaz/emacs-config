@@ -15,6 +15,7 @@
 (require 'user-init-python-mode)
 (require 'user-init-erlang-mode)
 (require 'user-init-octave-mode)
+(require 'user-init-slime)
 
 ;; run local configuration after rest of the system is initialized
 (add-hook 'after-init-hook
