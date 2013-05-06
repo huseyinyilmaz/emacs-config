@@ -12,7 +12,7 @@
 		  (progn
 		    (add-to-list
 		     'load-path
-		     (car (file-expand-wildcards "/usr/lib/erlang/lib/tools-*/emacs")))
+		     (car (file-expand-wildcards (concatenate 'string erlang-root-dir "/lib/tools-*/emacs"))))
 		    (add-to-list
 		     'exec-path
 		     (concatenate 'string erlang-root-dir "/bin"))
