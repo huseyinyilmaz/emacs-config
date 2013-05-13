@@ -11,7 +11,8 @@
 			virtualenv
 			yasnippet
 			python-mode
-			slime))
+			slime
+			fill-column-indicator))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Erlang configurations ;;
