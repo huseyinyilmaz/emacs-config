@@ -19,7 +19,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; erlang root directory that will be used
 ;; erlang-mode will be also used from this distrubition
-(defvar erlang-root-dir "/usr/lib/erlang")
+(defvar erlang-root-dir "/Users/huseyin/erlang/r16b")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Lisp configurations ;;
