@@ -19,7 +19,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; erlang root directory that will be used
 ;; erlang-mode will be also used from this distrubition
-(defvar erlang-root-dir "/Users/huseyin/erlang/r16b")
+(defvar erlang-root-dir "~/erlang/r16b01")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Lisp configurations ;;
@@ -33,4 +33,21 @@
 
 (message "load configuration")
 (provide 'user-init-config)
+
+;; (setenv "PATH" (concat "/usr/local/bin:"
+;; 		       "/usr/local/sbin:"
+;; 		       "/usr/local/share/python:"
+;; 		       (getenv "PATH")))
+
+(defvar user-init-paths
+  '("/usr/local/bin"
+    "/usr/local/sbin"
+    "/usr/local/share/python"
+    )
+  )
+
+
+(defvar user-init-python-paths
+  '("/usr/local/lib/python2.7/site-packages")
+  )
 ;;; user-init-config.el ends here

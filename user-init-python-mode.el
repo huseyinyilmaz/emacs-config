@@ -1,8 +1,12 @@
+;; Code:
+;;; configure python shell
+;; (defvar  py-shell-name "ipython")
+(setq py-split-windows-on-execute-p nil)
+(setq py-shell-switch-buffers-on-execute-p t)
+
 (add-hook 'after-init-hook
 	  #'(lambda ()
-	      (defvar py-shell-name "ipython")
-	      (require 'python-mode)
-	      ))
+	      (require 'python-mode)))
 
 (add-hook 'python-mode-hook #'subword-mode)
 ;; Set a line on column 79 in python mode
