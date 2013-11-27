@@ -11,7 +11,7 @@
 		  ;;set load paths and start erlang mode
 		  (progn
 		    (add-to-list
-		     'load-path
+		    'load-path
 		     (car (file-expand-wildcards (concatenate 'string erlang-root-dir "/lib/tools-*/emacs"))))
 		    (add-to-list
 		     'exec-path

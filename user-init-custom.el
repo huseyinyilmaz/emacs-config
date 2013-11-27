@@ -32,11 +32,16 @@
 (defun connect-irc ()
   "Little Hack that automatically connects me to default channels"
   (interactive)
-  ;; if server buffers are active kill them
-  (python-istanbul-irc)
-  (metglobal-irc))
-  
+  (python-istanbul-irc))
+
+
+(add-hook 'term-mode-hook (lambda()
+                (yas-minor-mode -1)))
+
 (message "config custom values")
 
 (provide 'user-init-custom)
+
+
+
 ;;; user-init-custom.el ends here

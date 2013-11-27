@@ -1,8 +1,25 @@
-;; Code:
+;; package --- Summary
 ;;; configure python shell
+;;; Commentary:
 ;; (defvar  py-shell-name "ipython")
-(setq py-split-windows-on-execute-p nil)
-(setq py-shell-switch-buffers-on-execute-p t)
+
+;;; Code:
+; switch to the interpreter after executing code
+(defvar py-switch-buffers-on-execute-p t)
+(defvar py-shell-switch-buffers-on-execute-p t)
+; don't split windows
+(defvar py-split-windows-on-execute-p nil)
+; try to automagically figure out indentation
+(defvar py-smart-indentation t)
+
+; use IPython
+(setq-default py-shell-name "ipython")
+(setq-default py-which-bufname "IPython")
+; use the wx backend, for both mayavi and matplotlib
+(defvar py-python-command-args
+  '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
+(defvar py-force-py-shell-name-p t)
+
 
 (add-hook 'after-init-hook
 	  #'(lambda ()

@@ -1,3 +1,8 @@
+;;; user-init-config.el --- Main emacs configuration file
+
+;;; Commentary:
+;; 
+
 ;;; Code:
 ;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dependent packages ;;
@@ -8,11 +13,13 @@
 			web-mode
 			jedi
 			flycheck
-			virtualenv
 			yasnippet
 			python-mode
 			slime
-			fill-column-indicator))
+			fill-column-indicator
+			projectile
+			;; color-theme-solarized
+			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Erlang configurations ;;
@@ -31,8 +38,6 @@
 ;; path for lisp implementation you want to use.
 (defvar inferior-lisp-path "sbcl")
 
-(message "load configuration")
-(provide 'user-init-config)
 
 ;; (setenv "PATH" (concat "/usr/local/bin:"
 ;; 		       "/usr/local/sbin:"
@@ -50,4 +55,8 @@
 (defvar user-init-python-paths
   '("/usr/local/lib/python2.7/site-packages")
   )
+
+(message "load configuration")
+(provide 'user-init-config)
+
 ;;; user-init-config.el ends here
