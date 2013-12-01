@@ -18,6 +18,7 @@
 			slime
 			fill-column-indicator
 			projectile
+			exec-path-from-shell
 			;; color-theme-solarized
 			))
 
@@ -45,7 +46,8 @@
 ;; 		       (getenv "PATH")))
 
 (defvar user-init-paths
-  '("/usr/local/bin"
+  '("/usr/bin"
+    "/usr/local/bin"
     "/usr/local/sbin"
     "/usr/local/share/python"
     )
@@ -53,7 +55,7 @@
 
 
 (defvar user-init-python-paths
-  '("/usr/local/lib/python2.7/site-packages")
+  '("/Library/Python/2.7/site-packages")
   )
 
 (message "load configuration")
