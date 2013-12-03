@@ -28,6 +28,7 @@
 (require 'user-init-theme)
 (require 'user-init-projectile)
 (require 'user-init-development)
+(require 'user-init-elisp)
 ;; run local configuration after rest of the system is initialized
 (add-hook 'after-init-hook
 	  #'(lambda ()

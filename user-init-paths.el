@@ -1,6 +1,14 @@
+;;; user-init-paths.el --- Configures path for functions that is called within emacs.
+
+;;; Commentary:
+;; This functionality is done by exec-path-from-shell library.
+
+(emacs-lisp-mode)
 ;;; Code:
 (defun user-init-append-to-env-var (variable-name value-list)
-  "Append a list of values to an environment variable"
+  "Append a list of values to an environment variable.
+Argument VARIABLE-NAME Name of environment variable that will be added to path.
+Argument VALUE-LIST List of value of variable.  That will be added to variable.  This values will be append together to form new variable."
   (let* ((extra-path-str (mapconcat 'identity value-list ":"))
 	 (new-path (concat (getenv variable-name) ":" extra-path-str)))
     (setenv variable-name new-path))
@@ -9,7 +17,7 @@
   
   )
 (defun user-init-set-envs ()
-  "Sets environments from user user-init-paths variable"
+  "Set environments from user `user-init-paths' variable."
   ;; update path
   (user-init-append-to-env-var "PATH" user-init-paths)
   (setq exec-path (append exec-path user-init-paths))
