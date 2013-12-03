@@ -1,3 +1,7 @@
+;;; user-init-default.el --- Configuraiton changes on emacs default values.
+;;; Code:
+
+
 ;;;;;;;;;;;;;;;;;;;;;
 ;; disable toolbar ;;
 ;;;;;;;;;;;;;;;;;;;;;
@@ -30,6 +34,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; set regular-expression mode to string ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Commentary:
+;; 
+
 (require 're-builder)
 (reb-change-syntax 'string)
 

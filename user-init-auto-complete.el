@@ -1,3 +1,10 @@
+;;; user-init-auto-complete.el --- Configuration for auto-complete
+
+;;; Commentary:
+;; 
+
+;;; Code:
+
 (add-hook 'after-init-hook
 	  #'(lambda ()
 	      (require 'auto-complete-config)
