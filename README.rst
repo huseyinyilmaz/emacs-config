@@ -13,6 +13,13 @@ Install python requirements from requirements.pip file.
 
    $ sudo pip install -r requirements.pip
 
+optional js requirements
+------------------------
+Install jshint to get javascript style warnings.
+::
+
+   $ sudo npm install jshint -g
+
 optional erlang requirements
 ----------------------------
 This configuration uses erlang-mode that comes with erlang distribution. So if you are going to

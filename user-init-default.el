@@ -2,6 +2,10 @@
 ;;; Code:
 
 
+;;; Commentary:
+;; Default values for global environment.
+
+
 ;;;;;;;;;;;;;;;;;;;;;
 ;; disable toolbar ;;
 ;;;;;;;;;;;;;;;;;;;;;
@@ -34,10 +38,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; set regular-expression mode to string ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;; Commentary:
-;; 
-
 (require 're-builder)
 (reb-change-syntax 'string)
 
@@ -53,6 +53,14 @@
 (ido-mode t)
 (setq ido-enable-flex-matching t) ;; enable fuzzy matching
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Use spaces instead of tabs ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq-default indent-tabs-mode nil)
+
+
+
 (message "config default")
 (provide 'user-init-default)
 ;;; user-init-default.el ends here
+

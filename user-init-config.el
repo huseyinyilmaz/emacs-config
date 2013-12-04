@@ -1,5 +1,4 @@
 ;;; user-init-config.el --- Main emacs configuration file
-
 ;;; Commentary:
 ;; 
 
@@ -13,6 +12,7 @@
 			web-mode
 			jedi
 			flycheck
+			flycheck-color-mode-line
 			yasnippet
 			python-mode
 			slime
@@ -20,6 +20,7 @@
 			projectile
 			exec-path-from-shell
 			;; color-theme-solarized
+			solarized-theme
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
