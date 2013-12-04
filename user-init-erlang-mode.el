@@ -1,4 +1,7 @@
-;;; Configures erlang-mode
+;;; user-init-erlang-mode.el --- Configures erlang-mode
+
+;;; Commentary:
+;; 
 
 ;;; Code:
 (require 'cl)

@@ -2,7 +2,7 @@
 
 
 ;;; Commentary:
-;; 
+;;  
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d")
@@ -11,7 +11,7 @@
 (require 'user-init-config)
 (require 'user-init-default)
 (require 'user-init-packages)
-;; (require 'user-init-zenburn)
+;; (require 'user-init-flyspell)
 (require 'user-init-auto-complete)
 (require 'user-init-multiple-cursors)
 (require 'user-init-web-mode)
