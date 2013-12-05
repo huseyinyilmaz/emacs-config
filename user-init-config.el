@@ -22,6 +22,7 @@
 			;; color-theme-solarized
 			solarized-theme
                         rainbow-delimiters
+                        git-gutter-fringe
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
