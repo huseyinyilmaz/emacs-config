@@ -9,12 +9,20 @@
 ;;;;;;;;;;;;;;;;;;;;;
 ;; disable toolbar ;;
 ;;;;;;;;;;;;;;;;;;;;;
-(tool-bar-mode -1)
+(when (fboundp 'tool-bar-mode)
+  (tool-bar-mode -1))
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;; disable scrollbar ;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;; (when (fboundp 'set-scroll-bar-mode)
+;;   (set-scroll-bar-mode nil))
 
 ;;;;;;;;;;;;;;;;;;;;;;;
 ;; enable linum mode ;;
 ;;;;;;;;;;;;;;;;;;;;;;;
-(global-linum-mode 1)
+(when (fboundp 'global-linum-mode)
+  (global-linum-mode 1))
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; enable narrowing ;;
