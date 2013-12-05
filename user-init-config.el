@@ -21,6 +21,7 @@
 			exec-path-from-shell
 			;; color-theme-solarized
 			solarized-theme
+                        rainbow-delimiters
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
