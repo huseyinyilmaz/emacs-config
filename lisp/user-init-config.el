@@ -26,6 +26,14 @@
                         base16-theme
 			))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Dependent el-get recipes ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defvar user-recipes '(
+                       ;; edts
+                       ;; distel
+                       ))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Erlang configurations ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -31,4 +31,6 @@
 (require 'user-init-development)
 (require 'user-init-elisp)
 (require 'user-init-git)
+(require 'user-init-edts)
 (require 'user-init-el-get)
+

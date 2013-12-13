@@ -1,0 +1,9 @@
+(:name edts
+       :website "https://github.com/tjarvstrand/edts"
+       :description "Erlang Development Tool Suite"
+       :type github
+       :build (("make"))       
+       :pkgname "tjarvstrand/edts"
+       ;; :load  ("ProofGeneral/generic/proof-site.el")
+       ;; :info "./ProofGeneral/doc/"
+       )
