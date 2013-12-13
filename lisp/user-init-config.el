@@ -6,8 +6,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dependent packages ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;
-(defvar user-packages '(zenburn-theme
-			auto-complete
+(defvar user-packages '(auto-complete
 			multiple-cursors
 			web-mode
 			jedi
@@ -19,10 +18,12 @@
 			fill-column-indicator
 			projectile
 			exec-path-from-shell
-			;; color-theme-solarized
-			solarized-theme
                         rainbow-delimiters
                         git-gutter-fringe
+                        ;; Theme list
+                        zenburn-theme
+			solarized-theme
+                        base16-theme
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;

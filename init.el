@@ -5,7 +5,8 @@
 ;;  
 
 ;;; Code:
-(add-to-list 'load-path "~/.emacs.d")
+;; (add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 
 ;; Init packages
 (require 'user-init-config)
@@ -30,9 +31,4 @@
 (require 'user-init-development)
 (require 'user-init-elisp)
 (require 'user-init-git)
-
-;; run local configuration after rest of the system is initialized
-(add-hook 'after-init-hook
-	  #'(lambda ()
-	      (require 'user-init-locals)))
-;;; init.el ends here
+(require 'user-init-el-get)

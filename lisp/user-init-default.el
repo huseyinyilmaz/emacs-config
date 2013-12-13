@@ -66,7 +66,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq-default indent-tabs-mode nil)
 
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; set default directory ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq default-directory "~/")
 
 (message "config default")
 (provide 'user-init-default)
