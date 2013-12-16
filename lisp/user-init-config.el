@@ -24,6 +24,8 @@
                         zenburn-theme
 			solarized-theme
                         base16-theme
+                        js2-mode
+                        ac-js2
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

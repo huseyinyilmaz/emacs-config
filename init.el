@@ -16,6 +16,7 @@
 (require 'user-init-auto-complete)
 (require 'user-init-multiple-cursors)
 (require 'user-init-web-mode)
+(require 'user-init-js2-mode)
 (require 'user-init-flycheck)
 (require 'user-init-jedi)
 (require 'user-init-yasnippet)
