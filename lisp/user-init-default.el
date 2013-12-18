@@ -71,6 +71,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq default-directory "~/")
 
+
+;;;;;;;;;;;;;;;;;;;;;
+;; set keybindings ;;
+;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-x e") 'eval-print-last-sexp)
+
 (message "config default")
 (provide 'user-init-default)
 ;;; user-init-default.el ends here
