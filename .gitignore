@@ -14,5 +14,6 @@ Session.vim
 auto-save-list
 tramp
 /elpa
+/el-get
 .\#*
 
