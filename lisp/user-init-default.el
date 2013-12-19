@@ -77,7 +77,11 @@
 ;;;;;;;;;;;;;;;;;;;;;
 (global-set-key (kbd "C-x e") 'eval-print-last-sexp)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; run check-parens after saving any file ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(add-hook 'after-save-hook 'check-parens nil t)
+
 (message "config default")
 (provide 'user-init-default)
 ;;; user-init-default.el ends here
-

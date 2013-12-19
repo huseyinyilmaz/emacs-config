@@ -3,7 +3,8 @@
 ;;; Commentary:
 ;; This functionality is done by exec-path-from-shell library.
 
-(emacs-lisp-mode)
+;; (emacs-lisp-mode)
+(require-package 'user-init-config)
 ;;; Code:
 (defun user-init-append-to-env-var (variable-name value-list)
   "Append a list of values to an environment variable.

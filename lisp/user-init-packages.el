@@ -1,4 +1,12 @@
+;;; user-init-packages.el --- Configure packages
+
+;;; Commentary:
+;; 
+
 (require 'package)
+(require 'user-init-config)
+
+;;; Code:
 
 ;; package resources
 ;; ("gnu" . "http://elpa.gnu.org/packages/")

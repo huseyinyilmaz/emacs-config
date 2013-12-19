@@ -13,6 +13,10 @@
 ;; for scratch buffer
 (add-hook 'lisp-interaction-mode-hook #'turn-on-eldoc-mode)
 
+;; make M-. go to source
+(dolist (hook '(emacs-lisp-mode-hook ielm-mode-hook))
+  (add-hook hook 'turn-on-elisp-slime-nav-mode))
+
 (message "config emacs lisp mode")
 (provide 'user-init-elisp)
 
