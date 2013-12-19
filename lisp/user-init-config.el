@@ -29,6 +29,7 @@
                         ac-js2
                         elisp-slime-nav
                         hl-sexp
+                        whitespace-cleanup-mode
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

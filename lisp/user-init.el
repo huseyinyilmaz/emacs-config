@@ -7,6 +7,7 @@
 (require 'user-init-config)
 (require 'user-init-default)
 (require 'user-init-packages)
+(require 'user-init-global)
 ;; (require 'user-init-flyspell)
 (require 'user-init-auto-complete)
 (require 'user-init-multiple-cursors)
@@ -29,7 +30,6 @@
 (require 'user-init-git)
 (require 'user-init-edts)
 (require 'user-init-el-get)
-
 (provide 'user-init)
 
 ;;; Code:
