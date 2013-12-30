@@ -35,25 +35,19 @@
   (erc-join-channel "emacs"))
 
 
-(defvar irc-server-buffer-metglobal nil)
-
-(defun metglobal-irc ()
+(defun connect-irc ()
+  "Connect to python istanbul and emacs channel"
   (interactive)
   ;; kill existing buffers
-  (kill-buffer-if-exist (get-buffer "#zurna"))
-  (kill-buffer-if-exist irc-server-buffer-metglobal)
+  (kill-buffer-if-exist (get-buffer "#emacs"))
+  (kill-buffer-if-exist irc-server-buffer-freenode)
   
-  (setf irc-server-buffer-metglobal (erc :server "irc.metglobal.com" :port 6667
+  (setf irc-server-buffer-freenode (erc :server "irc.freenode.net" :port 6667
 					:nick "huseyinyilmaz"))
-  (set-buffer irc-server-buffer-metglobal)
-  (erc-join-channel "zurna"))
-
-
-(defun connect-irc ()
-  "Little Hack that automatically connects me to default channels."
-  (interactive)
-  (python-istanbul-irc))
-
+  (set-buffer irc-server-buffer-freenode)
+  (erc-join-channel "python-istanbul")
+  (erc-join-channel "emacs")
+  )
 
 (message "config custom values")
 

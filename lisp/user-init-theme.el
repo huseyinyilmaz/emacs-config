@@ -9,6 +9,10 @@
   "Configure zenburn theme."
   (load-theme 'zenburn t))
 
+(defun user-init-configure-spacegray ()
+  "Configure zenburn theme."
+  (load-theme 'spacegray t))
+
 (defun user-init-configure-solarized ()
   "Configure solarized theme."
   ;; Add solarized as safe theme, so it wont give an error
@@ -25,8 +29,10 @@
   (load-theme 'monokai t)
   )
 ;;In order to change theme, change initilialization function here.
-(add-hook 'after-init-hook#'user-init-configure-solarized)
+;; (add-hook 'after-init-hook#'user-init-configure-solarized)
 ;; (add-hook 'after-init-hook 'user-init-configure-monokai)
+(add-hook 'after-init-hook#'user-init-configure-spacegray)
+
 (message "config theme")
 (provide 'user-init-theme)
 

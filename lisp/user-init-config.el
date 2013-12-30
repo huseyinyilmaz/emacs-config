@@ -25,6 +25,7 @@
 			solarized-theme
                         monokai-theme
                         base16-theme
+                        spacegray-theme
                         js2-mode
                         ac-js2
                         elisp-slime-nav
