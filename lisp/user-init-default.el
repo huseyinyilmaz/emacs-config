@@ -10,7 +10,7 @@
 ;; disable toolbar ;;
 ;;;;;;;;;;;;;;;;;;;;;
 (when (fboundp 'tool-bar-mode)
-  (tool-bar-mode -1))
+  (tool-bar-mode 0))
 
 ;;;;;;;;;;;;;;;;;;;;;;;
 ;; disable scrollbar ;;
