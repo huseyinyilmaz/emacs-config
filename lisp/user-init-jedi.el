@@ -44,7 +44,7 @@ to python path."
       (command-vals nil)
       (current-virtualenv-path
        (when (virtualenv-current)
-	 (concat virtualenv-workon-home (virtualenv-current)))))
+	 (virtualenv-current))))
   
   (when current-virtualenv-path
       (setq arg-vals (append arg-vals
