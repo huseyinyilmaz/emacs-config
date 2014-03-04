@@ -9,8 +9,17 @@
 (defvar py-shell-switch-buffers-on-execute-p t)
 ; don't split windows
 (defvar py-split-windows-on-execute-p nil)
+
 ; try to automagically figure out indentation
-(defvar py-smart-indentation t)
+(defvar py-indent-honors-inline-comment 1)
+(defvar py-smart-indentation 1)
+; Delete trailing whitespace maybe left by py-newline-and-indent
+(defvar py-newline-delete-trailing-whitespace-p 1)
+; TAB will indent/cycle the region, not just the current line
+(defvar py-tab-shifts-region-p 1)
+; Format the whole docstring
+(defvar py-paragraph-fill-docstring-p 1)
+
 
 ; use IPython
 (setq-default py-shell-name "ipython")
@@ -20,6 +29,8 @@
   '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
 (defvar py-force-py-shell-name-p t)
 
+; unload python-mode
+(when (featurep 'python) (unload-feature 'python t))
 
 (add-hook 'after-init-hook
 	  #'(lambda ()
@@ -30,6 +41,14 @@
 (add-hook 'python-mode-hook #'(lambda ()
 				(defvar fci-rule-column 79)
 				(fci-mode)))
+
+
+;; configure hightlight-indentation
+(add-hook 'python-mode-hook #'(lambda ()
+                                (highlight-indentation-mode 1)
+                                (set-face-background 'highlight-indentation-face "#363d3f")
+                                ))
+
 (message "config python-mode")
 (provide 'user-init-python-mode)
 ;;; user-init-python-mode.el ends here
