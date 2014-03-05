@@ -49,6 +49,27 @@
                                 (set-face-background 'highlight-indentation-face "#363d3f")
                                 ))
 
+
+;; http://www.emacswiki.org/emacs/AutoIndentation
+;; Seem that electric-indent-mode doesn’t work properly with python-mode. You can use this snippet:
+
+;; Ignoring electric indentation
+;; XXX This is called in every indentation. is there a better way?
+(defun electric-indent-ignore-python (char)
+  "Ignore electric indentation for `python-mode`.
+Argument CHAR electric-indent-function that is not used."
+  (if (equal major-mode 'python-mode)
+      `no-indent'
+    nil))
+(add-hook 'electric-indent-functions 'electric-indent-ignore-python)
+
+;; Enter key executes newline-and-indent
+(defun set-newline-and-indent ()
+  "Map the return key with `newline-and-indent`."
+  (local-set-key (kbd "RET") 'newline-and-indent))
+(add-hook 'python-mode-hook 'set-newline-and-indent)
+
+
 (message "config python-mode")
 (provide 'user-init-python-mode)
 ;;; user-init-python-mode.el ends here
