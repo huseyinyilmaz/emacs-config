@@ -12,4 +12,4 @@
 (message "config auto-complete")
 (provide 'user-init-auto-complete)
 
-;;; user-init-auto-complete.el ends here.
+;;; user-init-auto-complete.el ends here

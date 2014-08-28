@@ -25,7 +25,7 @@
 			  'string
 			  "Erlang root directory does not exists : "
 			  erlang-root-dir)))))
-
+;;; enable autocomplete-mode
 (message "config erlang-mode")
 (provide 'user-init-erlang-mode)
 ;;; user-init-erlang-mode.el ends here

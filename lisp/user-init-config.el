@@ -47,7 +47,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; erlang root directory that will be used
 ;; erlang-mode will be also used from this distrubition
-(defvar erlang-root-dir "~/erlang/r16b01")
+(defvar erlang-root-dir "~/erlang/170")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Lisp configurations ;;

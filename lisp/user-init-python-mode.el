@@ -25,8 +25,8 @@
 (setq-default py-shell-name "ipython")
 (setq-default py-which-bufname "IPython")
 ; use the wx backend, for both mayavi and matplotlib
-(defvar py-python-command-args
-  '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
+;; (defvar py-python-command-args
+;;   '("--gui=wx" "--pylab=wx" "--colors" "Linux"))
 (defvar py-force-py-shell-name-p t)
 
 ; unload python-mode
