@@ -25,13 +25,13 @@
   (load-theme 'solarized-dark))
 
 (defun user-init-configure-monokai ()
-  "Configure monokai theme"
+  "Configure monokai theme."
   (load-theme 'monokai t)
   )
 ;;In order to change theme, change initilialization function here.
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
 ;; (add-hook 'after-init-hook 'user-init-configure-monokai)
-(add-hook 'after-init-hook#'user-init-configure-spacegray)
+(add-hook 'after-init-hook#'user-init-configure-solarized)
 
 (message "config theme")
 (provide 'user-init-theme)
