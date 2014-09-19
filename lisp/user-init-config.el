@@ -6,7 +6,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dependent packages ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;
-(defvar user-packages '(auto-complete
+(defvar user-packages '(company
 			multiple-cursors
 			web-mode
 			jedi
