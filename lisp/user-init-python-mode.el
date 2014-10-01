@@ -4,6 +4,7 @@
 ;; (defvar  py-shell-name "ipython")
 
 ;;; Code:
+
 ; switch to the interpreter after executing code
 (defvar py-switch-buffers-on-execute-p t)
 (defvar py-shell-switch-buffers-on-execute-p t)
@@ -25,8 +26,8 @@
 (setq-default py-shell-name "ipython")
 (setq-default py-which-bufname "IPython")
 ; use the wx backend, for both mayavi and matplotlib
-;; (defvar py-python-command-args
-;;   '("--gui=wx" "--pylab=wx" "--colors" "Linux"))
+(defvar py-python-command-args
+  '("--gui=wx" "--pylab=wx" "--colors" "Linux"))
 (defvar py-force-py-shell-name-p t)
 
 ; unload python-mode
@@ -67,7 +68,9 @@ Argument CHAR electric-indent-function that is not used."
 (defun set-newline-and-indent ()
   "Map the return key with `newline-and-indent`."
   (local-set-key (kbd "RET") 'newline-and-indent))
+
 (add-hook 'python-mode-hook 'set-newline-and-indent)
+;; (add-hook 'python-mode-hook 'rainbow-delimeters)
 
 
 (message "config python-mode")

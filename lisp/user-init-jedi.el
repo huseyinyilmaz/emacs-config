@@ -19,10 +19,6 @@
 ;;               ;;             (list "python" jedi:server-script))
 ;;               ))
 
-(add-hook 'python-mode-hook #'(lambda ()
-				(defvar fci-rule-column 79)
-				(fci-mode)))
-
 (add-hook 'after-init-hook
 	  #'(lambda ()
 	      (defvar jedi:setup-keys t)

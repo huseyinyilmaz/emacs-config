@@ -27,7 +27,6 @@
                         base16-theme
                         spacegray-theme
                         js2-mode
-                        ac-js2
                         elisp-slime-nav
                         hl-sexp
                         whitespace-cleanup-mode

@@ -5,8 +5,7 @@
 
 ;;; Code:
 
-(global-rainbow-delimiters-mode)
-
+(add-hook 'emacs-mode-hook #'rainbow-delimeters)
  ;; for elisp files
 (add-hook 'emacs-lisp-mode-hook #'turn-on-eldoc-mode)
 
