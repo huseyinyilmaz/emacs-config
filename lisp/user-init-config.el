@@ -31,6 +31,11 @@
                         hl-sexp
                         whitespace-cleanup-mode
                         highlight-indentation
+                        aggressive-indent
+                        haskell-mode
+                        hi2
+                        sass-mode
+                        coffee-mode
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
