@@ -28,10 +28,16 @@
   "Configure monokai theme."
   (load-theme 'monokai t)
   )
+
+(defun user-init-configure-atom-dark ()
+  "Configure atom dark theme."
+  (load-theme 'atom-dark t)
+  )
 ;;In order to change theme, change initilialization function here.
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
-(add-hook 'after-init-hook 'user-init-configure-monokai)
+;; (add-hook 'after-init-hook 'user-init-configure-monokai)
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
+(add-hook 'after-init-hook 'user-init-configure-atom-dark)
 
 (message "config theme")
 (provide 'user-init-theme)

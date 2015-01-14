@@ -26,6 +26,7 @@
                         monokai-theme
                         base16-theme
                         spacegray-theme
+                        atom-dark-theme
                         js2-mode
                         elisp-slime-nav
                         hl-sexp
