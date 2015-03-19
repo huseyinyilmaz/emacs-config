@@ -33,11 +33,16 @@
   "Configure atom dark theme."
   (load-theme 'atom-dark t)
   )
+
+(defun user-init-configure-gruvbox ()
+  "Configure gruvbox theme."
+  (load-theme 'gruvbox t)
+)
 ;;In order to change theme, change initilialization function here.
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
 ;; (add-hook 'after-init-hook 'user-init-configure-monokai)
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
-(add-hook 'after-init-hook 'user-init-configure-atom-dark)
+(add-hook 'after-init-hook 'user-init-configure-gruvbox)
 
 (message "config theme")
 (provide 'user-init-theme)

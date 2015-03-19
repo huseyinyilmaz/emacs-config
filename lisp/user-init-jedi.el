@@ -24,8 +24,7 @@
 	      (defvar jedi:setup-keys t)
 	      ;; (add-hook 'python-mode-hook 'jedi:ac-setup)
 	      (defvar jedi:complete-on-dot t)
-	      (jedi:setup)
-	      ))
+	      (jedi:setup)))
 
 (add-hook 'python-mode-hook 'jedi:setup)
 (add-hook 'python-mode-hook #'user-init-setup-jedi-configuration)

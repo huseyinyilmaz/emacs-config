@@ -27,6 +27,7 @@
                         base16-theme
                         spacegray-theme
                         atom-dark-theme
+                        gruvbox-theme
                         js2-mode
                         elisp-slime-nav
                         hl-sexp

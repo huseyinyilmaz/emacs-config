@@ -13,8 +13,7 @@ Argument VALUE-LIST List of value of variable.  That will be added to variable. 
   (let* ((extra-path-str (mapconcat 'identity value-list ":"))
 	 (new-path (concat (getenv variable-name) ":" extra-path-str)))
     (setenv variable-name new-path))
-  (message (getenv variable-name))
-
+  (message (concat "Set Environment Variable " variable-name "=" (getenv variable-name)))
   
   )
 (defun user-init-set-envs ()
