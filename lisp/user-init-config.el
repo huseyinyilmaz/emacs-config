@@ -7,15 +7,15 @@
 ;; Dependent packages ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar user-packages '(company
+                        company-anaconda
+                        anaconda-mode
 			multiple-cursors
 			web-mode
-			jedi
 			flycheck
 			flycheck-color-mode-line
 			yasnippet
 			python-mode
 			slime
-			fill-column-indicator
 			projectile
 			exec-path-from-shell
                         rainbow-delimiters

@@ -45,16 +45,16 @@
 
 
 ;; Set a line on column 79 in python mode
-(add-hook 'python-mode-hook #'(lambda ()
-				(defvar fci-rule-column 79)
-				(fci-mode)))
+;; (add-hook 'python-mode-hook #'(lambda ()
+;; 				(defvar fci-rule-column 79)
+;; 				(fci-mode)))
 
 
 ;; configure hightlight-indentation
-(add-hook 'python-mode-hook #'(lambda ()
-                                (highlight-indentation-mode 1)
-                                (set-face-background 'highlight-indentation-face "#363d3f")
-                                ))
+;; (add-hook 'python-mode-hook #'(lambda ()
+;;                                 (highlight-indentation-mode 1)
+;;                                 (set-face-background 'highlight-indentation-face "#363d3f")
+;;                                ))
 
 
 ;; http://www.emacswiki.org/emacs/AutoIndentation
@@ -69,7 +69,6 @@ Argument CHAR electric-indent-function that is not used."
       `no-indent'
     nil))
 (add-hook 'electric-indent-functions 'electric-indent-ignore-python)
-
 ;; Enter key executes newline-and-indent
 (defun set-newline-and-indent ()
   "Map the return key with `newline-and-indent`."
