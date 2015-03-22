@@ -18,7 +18,7 @@
 (require 'user-init-flycheck)
 ;;(require 'user-init-jedi)
 (require 'user-init-yasnippet)
-(require 'user-init-python-mode)
+;;(require 'user-init-python-mode)
 (require 'user-init-erlang-mode)
 (require 'user-init-octave-mode)
 (require 'user-init-slime)
@@ -32,6 +32,8 @@
 (require 'user-init-elisp)
 (require 'user-init-git)
 (require 'user-init-org)
+
+(require 'user-init-helm)
 ;; (require 'user-init-edts)
 ;;(require 'user-init-el-get)
 

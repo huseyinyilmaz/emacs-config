@@ -32,6 +32,9 @@
  '(flycheck-color-mode-line-warning-face ((t (:inherit flycheck-fringe-warning)))))
 
 
+(eval-after-load 'flycheck
+  '(define-key flycheck-mode-map (kbd "C-c ! h") 'helm-flycheck))
+
 
 (message "config flycheck")
 

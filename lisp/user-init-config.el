@@ -14,7 +14,8 @@
 			flycheck
 			flycheck-color-mode-line
 			yasnippet
-			python-mode
+			;;python-mode
+                        virtualenvwrapper
 			slime
 			projectile
 			exec-path-from-shell
@@ -38,6 +39,10 @@
                         hi2
                         sass-mode
                         coffee-mode
+                        helm
+                        helm-flycheck
+                        helm-projectile
+                        helm-swoop
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
