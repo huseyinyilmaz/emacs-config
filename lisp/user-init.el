@@ -37,6 +37,7 @@
 ;; (require 'user-init-edts)
 ;;(require 'user-init-el-get)
 
+(require 'user-init-screensaver)
 (provide 'user-init)
 
 ;;; Code:
