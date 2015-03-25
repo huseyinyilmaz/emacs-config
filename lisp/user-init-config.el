@@ -43,6 +43,7 @@
                         helm-flycheck
                         helm-projectile
                         helm-swoop
+                        ace-jump-mode
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
