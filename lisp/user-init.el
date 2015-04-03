@@ -38,6 +38,8 @@
 ;;(require 'user-init-el-get)
 
 (require 'user-init-screensaver)
+(require 'user-init-ace-jump-mode)
+
 (provide 'user-init)
 
 ;;; Code:

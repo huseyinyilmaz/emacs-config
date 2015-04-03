@@ -12,7 +12,7 @@
 (require 'zone)
 
 (let ((user-init-screensaver-timeout (* 60 5)))  ;; five minutes
-  (zone-when-idle user-init-screensaver-timeout)
+  ;; (zone-when-idle user-init-screensaver-timeout)
 )
 
 (provide 'user-init-screensaver)

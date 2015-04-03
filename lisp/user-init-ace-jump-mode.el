@@ -5,7 +5,8 @@
 
 ;;; Code:
 
-(add-hook 'after-init-hook (define-key global-map (kbd "C-c SPC") 'ace-jump-mode))
+(add-hook 'after-init-hook
+          (lambda () (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)))
 
 (provide 'user-init-ace-jump-mode)
 
