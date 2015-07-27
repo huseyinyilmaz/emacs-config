@@ -8,7 +8,8 @@
 
 
 (defun sort-lines-nocase ()
-  "Case insensitive sort lines."
+  "Case insensitive sort lines.
+Source: http://stackoverflow.com/a/20967895/350127"
   (interactive)
   (let ((sort-fold-case t))
     (call-interactively 'sort-lines)))
