@@ -6,6 +6,14 @@
 ;;; Code:
 (defvar irc-server-buffer-freenode nil)
 
+
+(defun sort-lines-nocase ()
+  "Case insensitive sort lines."
+  (interactive)
+  (let ((sort-fold-case t))
+    (call-interactively 'sort-lines)))
+
+
 (defun kill-buffer-if-exist (buffer)
   "Kill BUFFER if it is exist."
   (when (bufferp buffer) (kill-buffer buffer)))

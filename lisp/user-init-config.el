@@ -21,6 +21,17 @@
 			exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
+                        ;; various modes
+                        csv-mode
+                        json-mode
+                        yaml-mode
+                        haskell-mode
+                        hi2
+                        sass-mode
+                        scss-mode
+                        coffee-mode
+                        js2-mode
+                        js-comint
                         ;; Theme list
                         zenburn-theme
 			solarized-theme
@@ -29,16 +40,11 @@
                         spacegray-theme
                         atom-dark-theme
                         gruvbox-theme
-                        js2-mode
                         elisp-slime-nav
                         hl-sexp
                         whitespace-cleanup-mode
                         highlight-indentation
                         aggressive-indent
-                        haskell-mode
-                        hi2
-                        sass-mode
-                        coffee-mode
                         helm
                         helm-flycheck
                         helm-projectile

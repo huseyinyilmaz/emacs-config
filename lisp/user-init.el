@@ -9,12 +9,13 @@
 (require 'user-init-packages)
 (require 'user-init-global)
 ;; (require 'user-init-flyspell)
-;;(require 'user-init-auto-complete)
+;; (require 'user-init-auto-complete)
 (require 'user-init-company)
 (require 'user-init-anaconda)
 (require 'user-init-multiple-cursors)
 (require 'user-init-web-mode)
 (require 'user-init-js2-mode)
+(require 'user-init-js-comint)
 (require 'user-init-flycheck)
 ;;(require 'user-init-jedi)
 (require 'user-init-yasnippet)
@@ -34,6 +35,7 @@
 (require 'user-init-org)
 
 (require 'user-init-helm)
+(require 'user-init-helm-swoop)
 ;; (require 'user-init-edts)
 ;;(require 'user-init-el-get)
 
