@@ -45,7 +45,7 @@ Source: http://stackoverflow.com/a/20967895/350127"
 
 
 (defun connect-irc ()
-  "Connect to python istanbul and emacs channel"
+  "Connect to python istanbul and Emacs channel."
   (interactive)
   ;; kill existing buffers
   (kill-buffer-if-exist (get-buffer "#emacs"))
@@ -57,6 +57,23 @@ Source: http://stackoverflow.com/a/20967895/350127"
   (erc-join-channel "python-istanbul")
   (erc-join-channel "emacs")
   )
+
+
+(defun unhtml (start end)
+  "Source: http://shallowsky.com/blog/linux/editors/emacs-escape-html.html.
+Argument START Starting point.
+Argument END End point."
+  (interactive "r")
+  (save-excursion
+    (save-restriction
+      (narrow-to-region start end)
+      (goto-char (point-min))
+      (replace-string "&" "&amp;")
+      (goto-char (point-min))
+      (replace-string "<" "&lt;")
+      (goto-char (point-min))
+      (replace-string ">" "&gt;")
+      )))
 
 (message "config custom values")
 
