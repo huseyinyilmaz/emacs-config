@@ -4,6 +4,8 @@
 ;;; Commentary:
 ;; 
 
+;;; Code:
+
 (require 'user-init-config)
 (require 'user-init-default)
 (require 'user-init-packages)
@@ -41,6 +43,7 @@
 
 (require 'user-init-screensaver)
 (require 'user-init-ace-jump-mode)
+(require 'user-init-modeline)
 
 (provide 'user-init)
 

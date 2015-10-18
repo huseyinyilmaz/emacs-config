@@ -32,6 +32,7 @@
                         coffee-mode
                         js2-mode
                         js-comint
+                        jdee
                         ;; Theme list
                         zenburn-theme
 			solarized-theme
@@ -40,6 +41,11 @@
                         spacegray-theme
                         atom-dark-theme
                         gruvbox-theme
+                        ;; Mode line
+                        powerline
+                        smart-mode-line
+                        smart-mode-line-powerline-theme
+                        ;; Others
                         elisp-slime-nav
                         hl-sexp
                         whitespace-cleanup-mode
@@ -65,7 +71,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; erlang root directory that will be used
 ;; erlang-mode will be also used from this distrubition
-(defvar erlang-root-dir "~/erlang/170")
+(defvar erlang-root-dir "/usr/local/opt/erlang/lib/erlang")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Lisp configurations ;;
