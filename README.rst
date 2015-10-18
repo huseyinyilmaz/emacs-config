@@ -33,7 +33,7 @@ Just clone repository as ~/.emacs.d. When you start your emacs, emacs will downl
 
 ::
 
-   $ git clone git://github.com/huseyinyilmaz/emacs-package-config.git .emacs.d
+   $ git clone git@github.com:huseyinyilmaz/emacs-config.git .emacs.d
    $ emacs
 
 
