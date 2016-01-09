@@ -21,6 +21,9 @@
 			exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
+                        ;; scala-mode
+                        scala-mode2
+                        ensime
                         ;; various modes
                         csv-mode
                         json-mode

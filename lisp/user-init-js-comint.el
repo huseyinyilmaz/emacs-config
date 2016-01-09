@@ -9,6 +9,8 @@
 
 (require 'js-comint)
 (setq inferior-js-program-command "rhino")
+(setq inferior-js-program-arguments nil)
+
 (add-hook 'js2-mode-hook '(lambda ()
                             (local-set-key "\C-x\C-e" 'js-send-last-sexp)
                             (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)

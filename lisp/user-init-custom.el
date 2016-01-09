@@ -43,6 +43,18 @@ Source: http://stackoverflow.com/a/20967895/350127"
   (set-buffer irc-server-buffer-freenode)
   (erc-join-channel "emacs"))
 
+(defun haskell-irc ()
+  "Connect to Emacs irc channel."
+  (interactive)
+  ;; kill existing buffers
+  (kill-buffer-if-exist (get-buffer "#haskell"))
+  (kill-buffer-if-exist irc-server-buffer-freenode)
+  
+  (setf irc-server-buffer-freenode (erc :server "irc.freenode.net" :port 6667
+					:nick "huseyinyilmaz"))
+  (set-buffer irc-server-buffer-freenode)
+  (erc-join-channel "haskell"))
+
 
 (defun connect-irc ()
   "Connect to python istanbul and Emacs channel."

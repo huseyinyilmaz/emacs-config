@@ -19,6 +19,7 @@
 (require 'user-init-js2-mode)
 (require 'user-init-js-comint)
 (require 'user-init-flycheck)
+(require 'user-init-scala-mode)
 ;;(require 'user-init-jedi)
 (require 'user-init-yasnippet)
 ;;(require 'user-init-python-mode)
