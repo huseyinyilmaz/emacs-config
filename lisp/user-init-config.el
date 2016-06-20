@@ -24,19 +24,25 @@
                         ;; scala-mode
                         scala-mode2
                         ensime
+                        ;; Haskell modes
+                        ;; haskell-mode
+                        ;; hi2
+                        ;; company-ghc
+                        intero
                         ;; various modes
                         csv-mode
                         json-mode
                         yaml-mode
-                        haskell-mode
-                        hi2
                         sass-mode
                         scss-mode
                         coffee-mode
-                        js2-mode
-                        js-comint
+                        tern
+                        company-tern
+                        ;; js2-mode
+                        ;; js-comint
                         jdee
                         ;; Theme list
+                        dracula-theme
                         zenburn-theme
 			solarized-theme
                         monokai-theme
@@ -59,6 +65,9 @@
                         helm-projectile
                         helm-swoop
                         ace-jump-mode
+
+                        restclient
+                        company-restclient
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
