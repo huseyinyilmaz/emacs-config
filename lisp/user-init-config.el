@@ -68,6 +68,7 @@
 
                         restclient
                         company-restclient
+                        htmlize ;; To get highlighting in code examples in org mode.
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

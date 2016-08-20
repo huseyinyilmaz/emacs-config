@@ -5,6 +5,7 @@
 
 ;;; Code:
 
+
 (add-hook 'after-init-hook #'projectile-global-mode)
 
 (provide 'user-init-projectile)
