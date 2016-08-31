@@ -46,6 +46,7 @@
 (require 'user-init-screensaver)
 (require 'user-init-ace-jump-mode)
 (require 'user-init-modeline)
+(require 'user-init-move-text)
 
 (provide 'user-init)
 
