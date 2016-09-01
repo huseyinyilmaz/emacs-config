@@ -69,6 +69,7 @@
                         restclient
                         company-restclient
                         which-key
+                        magit
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

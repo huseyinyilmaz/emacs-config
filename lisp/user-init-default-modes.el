@@ -21,6 +21,13 @@
                              (global-set-key (kbd "M-n") 'move-text-down)))
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;; magit configuration ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(add-hook 'after-init-hook (lambda ()
+                             (global-set-key (kbd "C-x g") 'magit-status)))
+
 
 (provide 'user-init-default-modes)
 
