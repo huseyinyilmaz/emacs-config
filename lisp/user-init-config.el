@@ -18,6 +18,7 @@
                         virtualenvwrapper
 			slime
 			projectile
+                        ag ;; silver searcher support for projectile
 			exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
