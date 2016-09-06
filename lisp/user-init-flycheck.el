@@ -1,4 +1,3 @@
-
 ;;; user-init-flycheck.el --- Configure flycheck syntax checker.
 
 ;;; Commentary:
@@ -14,6 +13,8 @@
   '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
 
 (setq-default flycheck-flake8-maximum-complexity 10)
+(setq flycheck-python-flake8-executable "/Users/huseyin/.virtualenvs/flake8/bin/flake8")
+
 
 ;; Change mode faces
 (custom-set-variables
