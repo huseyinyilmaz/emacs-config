@@ -47,7 +47,7 @@
 ;; set regular-expression mode to string ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 're-builder)
-(reb-change-syntax 'string)
+;;(reb-change-syntax 'string)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Disable the splash screen ;;

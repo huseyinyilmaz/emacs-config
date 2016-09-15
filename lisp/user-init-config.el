@@ -39,8 +39,7 @@
                         coffee-mode
                         tern
                         company-tern
-                        ;; js2-mode
-                        ;; js-comint
+                        json-reformat
                         jdee
                         ;; Theme list
                         dracula-theme
@@ -65,6 +64,7 @@
                         helm-flycheck
                         helm-projectile
                         helm-swoop
+                        helm-ag
                         ace-jump-mode
                         move-text
                         restclient
