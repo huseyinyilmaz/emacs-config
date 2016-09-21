@@ -49,6 +49,10 @@
                                           ;; autoresizes helm window
                                           (helm-autoresize-mode 1)
                                           ))
+
+;; Turn on helm-projectile
+(helm-projectile-on)
+
 (message "config helm")
 
 (provide 'user-init-helm)

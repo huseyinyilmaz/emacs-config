@@ -14,6 +14,7 @@
 			flycheck
 			flycheck-color-mode-line
 			yasnippet
+                        org
 			;;python-mode
                         virtualenvwrapper
 			slime
@@ -23,7 +24,10 @@
                         rainbow-delimiters
                         git-gutter-fringe
                         ;; scala-mode
-                        scala-mode2
+
+                        ;; removed to debug
+                        ;; scala-mode2
+
                         ensime
                         ;; Haskell modes
                         ;; haskell-mode
