@@ -28,6 +28,11 @@
 (add-hook 'after-init-hook (lambda ()
                              (global-set-key (kbd "C-x g") 'magit-status)))
 
+;;;;;;;;;;;;;;;;;
+;; beacon mode ;;
+;;;;;;;;;;;;;;;;;
+(add-hook 'after-init-hook #'beacon-mode)
+
 
 (provide 'user-init-default-modes)
 

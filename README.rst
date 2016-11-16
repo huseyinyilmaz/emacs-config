@@ -15,10 +15,14 @@ Install python requirements from requirements.pip file.
 
 optional js requirements
 ------------------------
-Install jshint to get javascript style warnings.
+Install jshint and tern to get javascript style warnings.
+Also install jsonlint to get json file style warning.
 ::
 
-   $ sudo npm install jshint -g
+   $ npm install -g jshint
+   $ npm install -g tern
+   $ npm install -g jsonlint
+
 
 optional erlang requirements
 ----------------------------

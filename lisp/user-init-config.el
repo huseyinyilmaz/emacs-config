@@ -58,7 +58,11 @@
                         powerline
                         smart-mode-line
                         smart-mode-line-powerline-theme
+                        ;; Ansible
+                        ansible
+                        ansible-doc
                         ;; Others
+                        beacon
                         elisp-slime-nav
                         hl-sexp
                         whitespace-cleanup-mode

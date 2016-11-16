@@ -75,7 +75,7 @@
 ;;;;;;;;;;;;;;;;;;;;;
 ;; set keybindings ;;
 ;;;;;;;;;;;;;;;;;;;;;
-(global-set-key (kbd "C-x e") 'eval-print-last-sexp)
+;; (global-set-key (kbd "C-x e") 'eval-print-last-sexp)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; enable highlock mode for all parents ;;
