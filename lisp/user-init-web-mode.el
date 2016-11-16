@@ -20,6 +20,9 @@
               (setq web-mode-enable-current-element-highlight t)
               (setq web-mode-enable-comment-keywords t)
 
+              (setq web-mode-enable-auto-closing t)
+              (setq web-mode-enable-auto-quoting t)
+
 	      (defun web-mode-hook ()
 		"Hooks for Web mode."
 		(setq web-mode-markup-indent-offset 2)
