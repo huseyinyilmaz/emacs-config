@@ -79,6 +79,7 @@
                         company-restclient
                         which-key
                         magit
+                        dashboard
 			))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -46,6 +46,9 @@
 (require 'user-init-screensaver)
 (require 'user-init-ace-jump-mode)
 (require 'user-init-modeline)
+(require 'user-init-dashboard)
+
+
 (require 'user-init-default-modes)
 
 (provide 'user-init)
