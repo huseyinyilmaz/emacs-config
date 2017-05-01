@@ -52,7 +52,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Disable the splash screen ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;(setq inhibit-splash-screen t)
+(setq inhibit-splash-screen t)
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; enable ido mode ;;

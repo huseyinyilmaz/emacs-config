@@ -5,10 +5,12 @@
 
 ;;; Code:
 
-(add-hook 'after-init-hook 'global-company-mode)
-;; (add-hook 'after-init-hook #'(lambda()
-;;                                (add-to-list 'company-backends 'company-jedi)
-;;                                ))
+(add-hook 'after-init-hook #'(lambda()
+                               (global-company-mode)
+                               (add-to-list 'company-backends 'company-tern)
+                               (add-to-list 'company-backends 'company-anaconda)
+                               ))
+
 
 
 (message "config auto-complete")

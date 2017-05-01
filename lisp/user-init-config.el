@@ -8,6 +8,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar user-packages '(company
                         company-anaconda
+                        company-tern
+                        company-restclient
                         anaconda-mode
 			multiple-cursors
 			web-mode
@@ -41,8 +43,6 @@
                         sass-mode
                         scss-mode
                         coffee-mode
-                        tern
-                        company-tern
                         json-reformat
                         jdee
                         ;; Theme list
@@ -54,6 +54,9 @@
                         spacegray-theme
                         atom-dark-theme
                         gruvbox-theme
+                        ;; javascript typescript
+                        jsx-mode
+                        tern
                         ;; Mode line
                         powerline
                         smart-mode-line
@@ -76,7 +79,6 @@
                         ace-jump-mode
                         move-text
                         restclient
-                        company-restclient
                         which-key
                         magit
                         dashboard

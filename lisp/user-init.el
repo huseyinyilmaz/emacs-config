@@ -18,6 +18,8 @@
 (require 'user-init-web-mode)
 ;; (require 'user-init-js2-mode)
 (require 'user-init-tern)
+(require 'user-init-jsx-mode)
+;(require 'user-init-typescript)
 ;; (require 'user-init-js-comint)
 (require 'user-init-flycheck)
 (require 'user-init-scala-mode)
