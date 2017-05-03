@@ -57,6 +57,8 @@
                         ;; javascript typescript
                         jsx-mode
                         tern
+                        ;; php
+                        php-mode
                         ;; Mode line
                         powerline
                         smart-mode-line
@@ -64,6 +66,8 @@
                         ;; Ansible
                         ansible
                         ansible-doc
+                        ;; docker
+                        dockerfile-mode
                         ;; Others
                         beacon
                         elisp-slime-nav
