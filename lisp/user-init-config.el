@@ -17,7 +17,6 @@
 			flycheck-color-mode-line
 			yasnippet
                         org
-                        origami
 			;;python-mode
                         virtualenvwrapper
 			slime
