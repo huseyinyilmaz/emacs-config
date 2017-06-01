@@ -42,6 +42,7 @@
                         yaml-mode
                         sass-mode
                         scss-mode
+                        rainbow-mode
                         coffee-mode
                         json-reformat
                         jdee

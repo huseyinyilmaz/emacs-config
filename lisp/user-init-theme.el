@@ -45,11 +45,11 @@
   )
 
 ;;In order to change theme, change initilialization function here.
-(add-hook 'after-init-hook 'user-init-configure-dracula)
+;; (add-hook 'after-init-hook 'user-init-configure-dracula)
 ;; (add-hook 'after-init-hook 'user-init-configure-monokai)
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
 ;; (add-hook 'after-init-hook 'user-init-configure-atom-dark)
-;; (add-hook 'after-init-hook 'user-init-configure-gruvbox)
+(add-hook 'after-init-hook 'user-init-configure-gruvbox)
 ;;(add-hook 'after-init-hook 'user-init-configure-zenburn)
 
 (message "config theme")
