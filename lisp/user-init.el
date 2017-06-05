@@ -2,7 +2,7 @@
 ;; Init packages
 
 ;;; Commentary:
-;; 
+;;
 
 ;;; Code:
 
@@ -44,6 +44,7 @@
 (require 'user-init-helm-swoop)
 ;; (require 'user-init-edts)
 ;;(require 'user-init-el-get)
+(require 'user-init-php-mode)
 
 (require 'user-init-screensaver)
 (require 'user-init-ace-jump-mode)
