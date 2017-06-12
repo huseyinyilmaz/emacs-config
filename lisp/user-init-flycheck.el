@@ -1,7 +1,7 @@
 ;;; user-init-flycheck.el --- Configure flycheck syntax checker.
 
 ;;; Commentary:
-;; 
+;;
 
 ;;; Code:
 
@@ -14,6 +14,10 @@
 
 (setq-default flycheck-flake8-maximum-complexity 10)
 (setq flycheck-python-flake8-executable "/Users/huseyin/.virtualenvs/flake8/bin/flake8")
+
+;; we want to use mypy
+;; (add-to-list 'flycheck-disabled-checkers 'python-flake8)
+;; (add-to-list 'flycheck-disabled-checkers 'python-pylint)
 
 ;; Change mode faces
 (custom-set-variables

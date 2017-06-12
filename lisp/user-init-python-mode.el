@@ -34,20 +34,20 @@
 (when (featurep 'python) (unload-feature 'python t))
 
 (add-hook 'after-init-hook
-	  #'(lambda ()
-	      (require 'python-mode)
+          #'(lambda ()
+              (require 'python-mode)
               ;; we need this because virtualenv-workon command
               ;; assumes that shell is exist
               (shell)
               ))
 
-(add-hook 'python-mode-hook #'subword-mode)
+;; (add-hook 'python-mode-hook #'subword-mode)
 
 
 ;; Set a line on column 79 in python mode
 ;; (add-hook 'python-mode-hook #'(lambda ()
-;; 				(defvar fci-rule-column 79)
-;; 				(fci-mode)))
+;;                              (defvar fci-rule-column 79)
+;;                              (fci-mode)))
 
 
 ;; configure hightlight-indentation

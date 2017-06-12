@@ -34,6 +34,12 @@
 (add-hook 'after-init-hook #'beacon-mode)
 
 
+;;;;;;;;;;;;;;;;;;
+;; subword mode ;;
+;;;;;;;;;;;;;;;;;;
+(add-hook 'after-init-hook #'global-subword-mode)
+
+
 (provide 'user-init-default-modes)
 
 ;;; user-init-default-modes.el ends here

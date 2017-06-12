@@ -1,6 +1,6 @@
 ;;; user-init-config.el --- Main emacs configuration file
 ;;; Commentary:
-;; 
+;;
 
 ;;; Code:
 ;;;;;;;;;;;;;;;;;;;;;;;;
@@ -11,18 +11,19 @@
                         company-tern
                         company-restclient
                         anaconda-mode
-			multiple-cursors
-			web-mode
-			flycheck
-			flycheck-color-mode-line
-			yasnippet
+                        multiple-cursors
+                        web-mode
+                        flycheck
+                        flycheck-color-mode-line
+                        yasnippet
                         org
-			;;python-mode
+                        ;;python-mode
                         virtualenvwrapper
-			slime
-			projectile
+                        flycheck-mypy
+                        slime
+                        projectile
                         ag ;; silver searcher support for projectile
-			exec-path-from-shell
+                        exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
                         ;; scala-mode
@@ -49,7 +50,7 @@
                         ;; Theme list
                         dracula-theme
                         zenburn-theme
-			solarized-theme
+                        solarized-theme
                         monokai-theme
                         base16-theme
                         spacegray-theme
@@ -87,7 +88,7 @@
                         which-key
                         magit
                         dashboard
-			))
+                        ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dependent el-get recipes ;;
@@ -116,9 +117,9 @@
 
 
 ;; (setenv "PATH" (concat "/usr/local/bin:"
-;; 		       "/usr/local/sbin:"
-;; 		       "/usr/local/share/python:"
-;; 		       (getenv "PATH")))
+;;                     "/usr/local/sbin:"
+;;                     "/usr/local/share/python:"
+;;                     (getenv "PATH")))
 
 (defvar user-init-paths
   '("/usr/bin"
