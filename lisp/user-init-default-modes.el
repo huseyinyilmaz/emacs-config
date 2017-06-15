@@ -39,6 +39,10 @@
 ;;;;;;;;;;;;;;;;;;
 (add-hook 'after-init-hook #'global-subword-mode)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; string inflection mode ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-c C-u") 'string-inflection-all-cycle)
 
 (provide 'user-init-default-modes)
 

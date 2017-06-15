@@ -88,6 +88,7 @@
                         which-key
                         magit
                         dashboard
+                        string-inflection
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
