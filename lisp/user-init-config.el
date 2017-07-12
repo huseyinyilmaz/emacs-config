@@ -22,6 +22,7 @@
                         flycheck-mypy
                         slime
                         projectile
+                        ibuffer-vc
                         ag ;; silver searcher support for projectile
                         exec-path-from-shell
                         rainbow-delimiters
@@ -59,6 +60,7 @@
                         ;; javascript typescript
                         jsx-mode
                         tern
+                        vue-mode
                         ;; php
                         php-mode
                         ;; Mode line

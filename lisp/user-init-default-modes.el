@@ -44,6 +44,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (global-set-key (kbd "C-c C-u") 'string-inflection-all-cycle)
 
+;;;;;;;;;;;;;;;;;;
+;; ibuffer mode ;;
+;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-x C-b") 'ibuffer) ;; Use Ibuffer for Buffer List
+
 (provide 'user-init-default-modes)
 
 ;;; user-init-default-modes.el ends here

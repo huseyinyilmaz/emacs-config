@@ -50,6 +50,7 @@
 (require 'user-init-ace-jump-mode)
 (require 'user-init-modeline)
 (require 'user-init-dashboard)
+(require 'user-init-ibuffer-mode)
 
 
 (require 'user-init-default-modes)
