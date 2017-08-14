@@ -14,6 +14,7 @@
                         anaconda-mode
                         multiple-cursors
                         web-mode
+                        js2-mode
                         flycheck
                         flycheck-color-mode-line
                         yasnippet

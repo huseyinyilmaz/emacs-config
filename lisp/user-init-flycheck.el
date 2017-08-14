@@ -10,10 +10,27 @@
 (require 'flycheck-color-mode-line)
 
 (eval-after-load "flycheck"
-  '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
+  '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
+  )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Javascript configuration ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; use eslint with web-mode for jsx files
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+
+;; (eval-after-load "flycheck"
+;;   '(setq flycheck-javascript-eslint-executable "yarn eslint --")
+;;   )
+
+(eval-after-load "flycheck"
+  `(add-hook 'web-mode-hook (lambda () (tern-mode t))))
+
+
 
 (setq-default flycheck-flake8-maximum-complexity 10)
-(setq flycheck-python-flake8-executable "/Users/huseyin/.virtualenvs/flake8/bin/flake8")
+;; (setq flycheck-python-flake8-executable "/Users/huseyin/.virtualenvs/flake8/bin/flake8")
 
 ;; we want to use mypy
 ;; (add-to-list 'flycheck-disabled-checkers 'python-flake8)
@@ -38,6 +55,7 @@
 
 (eval-after-load 'flycheck
   '(define-key flycheck-mode-map (kbd "C-c ! h") 'helm-flycheck))
+
 
 
 (message "config flycheck")
