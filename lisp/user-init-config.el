@@ -10,6 +10,7 @@
                         company-anaconda
                         company-tern
                         company-restclient
+                        company-flow
                         anaconda-mode
                         multiple-cursors
                         web-mode
@@ -57,10 +58,6 @@
                         spacegray-theme
                         atom-dark-theme
                         gruvbox-theme
-                        ;; javascript typescript
-                        jsx-mode
-                        tern
-                        vue-mode
                         ;; php
                         php-mode
                         ;; Mode line
