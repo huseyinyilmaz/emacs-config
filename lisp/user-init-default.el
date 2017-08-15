@@ -65,7 +65,7 @@
 ;; use spaces instead of tabs ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq-default indent-tabs-mode nil)
-
+(setq-default tab-width 2)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; set default directory ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;

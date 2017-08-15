@@ -38,9 +38,7 @@
                                         root))))
     (when (and eslint (file-executable-p eslint))
       (setq-local flycheck-javascript-eslint-executable eslint))))
-(add-hook 'flycheck-mode-hook #'my/use-eslint-from-node-modules)
-
-
+;; (add-hook 'flycheck-mode-hook #'my/use-eslint-from-node-modules)
 
 
 
