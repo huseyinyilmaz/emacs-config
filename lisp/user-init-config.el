@@ -15,6 +15,7 @@
                         multiple-cursors
                         web-mode
                         js2-mode
+                        add-node-modules-path
                         flycheck
                         flycheck-color-mode-line
                         yasnippet
@@ -89,6 +90,7 @@
                         magit
                         dashboard
                         string-inflection
+                        evil-numbers
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

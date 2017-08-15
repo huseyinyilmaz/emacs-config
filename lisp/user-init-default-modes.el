@@ -47,7 +47,16 @@
 ;;;;;;;;;;;;;;;;;;
 ;; ibuffer mode ;;
 ;;;;;;;;;;;;;;;;;;
+
 (global-set-key (kbd "C-x C-b") 'ibuffer) ;; Use Ibuffer for Buffer List
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;; evil numbers mode ;;
+;;;;;;;;;;;;;;;;;;;;;;;
+
+(global-set-key (kbd "C-c +") 'evil-numbers/inc-at-pt)
+(global-set-key (kbd "C-c -") 'evil-numbers/dec-at-pt)
+
 
 (provide 'user-init-default-modes)
 

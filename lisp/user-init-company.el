@@ -13,7 +13,7 @@
                                (add-to-list 'company-backends 'company-flow)
                                (add-to-list 'company-backends 'company-restclient)
                                ;; Config company backends
-                               (setq company-flow-modes '(js-mode js2-mode jd2-jsx-mode web-mode))
+                               (setq company-flow-modes '(js-mode js2-mode js2-jsx-mode web-mode))
                                ))
 
 
