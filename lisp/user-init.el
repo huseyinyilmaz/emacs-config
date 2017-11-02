@@ -13,7 +13,6 @@
 ;; (require 'user-init-flyspell)
 (require 'user-init-company)
 (require 'user-init-anaconda)
-(require 'user-init-multiple-cursors)
 (require 'user-init-web-mode)
 (require 'user-init-flycheck)
 (require 'user-init-scala-mode)
