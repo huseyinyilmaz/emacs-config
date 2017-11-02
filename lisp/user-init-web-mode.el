@@ -33,7 +33,7 @@
               (defvar web-mode-markup-indent-offset 2)
               (defvar web-mode-css-indent-offset 2)
               (defvar web-mode-code-indent-offset 2)
-
+              (defvar css-indent-offset 2)
               (defun web-mode-hook ()
                 "Hooks for Web mode."
                 (defvar web-mode-markup-indent-offset 2)
@@ -44,7 +44,12 @@
               ))
 
 
-(add-hook 'js2-mode-hook (lambda () (setq js2-basic-offset 2)))
+(add-hook 'js2-mode-hook (lambda ()
+                           (setq js2-basic-offset 2)
+                           (setq js2-strict-trailing-comma-warning nil)
+                           (setq js2-strict-missing-semi-warning nil)
+                           (setq js2-missing-semi-one-line-override nil)
+                           ))
 
 (add-hook 'after-init-hook
           #'(lambda ()
