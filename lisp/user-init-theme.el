@@ -54,9 +54,9 @@
 ;; (add-hook 'after-init-hook 'user-init-configure-monokai)
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
 ;; (add-hook 'after-init-hook 'user-init-configure-atom-dark)
-;; (add-hook 'after-init-hook 'user-init-configure-gruvbox)
+(add-hook 'after-init-hook 'user-init-configure-gruvbox)
 ;; (add-hook 'after-init-hook 'user-init-configure-zenburn)
-(add-hook 'after-init-hook 'user-init-configure-google-dark)
+;; (add-hook 'after-init-hook 'user-init-configure-google-dark)
 
 (message "config theme")
 (provide 'user-init-theme)
