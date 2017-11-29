@@ -30,16 +30,10 @@
                         exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
-                        ;; scala-mode
-
-                        ;; removed to debug
-                        ;; scala-mode2
-
                         ensime
+                        ;;
+                        go-mode
                         ;; Haskell modes
-                        ;; haskell-mode
-                        ;; hi2
-                        ;; company-ghc
                         intero
                         ;; various modes
                         csv-mode
