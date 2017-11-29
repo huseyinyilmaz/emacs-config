@@ -55,6 +55,13 @@
                            (setq js2-strict-trailing-comma-warning nil)
                            (setq js2-strict-missing-semi-warning nil)
                            (setq js2-missing-semi-one-line-override nil)
+
+                           (setq js2-mode-show-parse-errors nil)
+                           (setq js2-mode-show-strict-warnings nil)
+                           (setq js2-strict-inconsistent-return-warning nil)
+                           (setq js2-strict-cond-assign-warning nil)
+                           (setq js2-strict-var-redeclaration-warning nil)
+                           (setq js2-strict-var-hides-function-arg-warning nil)
                            ))
 
 (add-hook 'after-init-hook
