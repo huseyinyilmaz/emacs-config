@@ -67,6 +67,21 @@
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
 
+;;;;;;;;;;;;;;;
+;; pcri mode ;;
+;;;;;;;;;;;;;;;
+
+;; So when we enter regexes we would not need to escape characters.
+(add-hook 'after-init-hook #'pcre-mode)
+
+
+;;;;;;;;;;;;;;;;;
+;; dimmer mode ;;
+;;;;;;;;;;;;;;;;;
+
+(add-hook 'after-init-hook #'dimmer-mode)
+
+
 (provide 'user-init-default-modes)
 
 ;;; user-init-default-modes.el ends here

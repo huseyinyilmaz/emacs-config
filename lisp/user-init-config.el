@@ -85,6 +85,9 @@
                         dashboard
                         string-inflection
                         evil-numbers
+                        pcre2el ;; use defaut regex.
+                        dired+
+                        dimmer
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
