@@ -1,7 +1,7 @@
 ;;; user-init-packages.el --- Configure packages
 
 ;;; Commentary:
-;; 
+;;
 
 (require 'package)
 (require 'user-init-config)
@@ -14,10 +14,13 @@
 ;; ("melpa" . "http://melpa.milkbox.net/packages/")
 
 (add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/"))
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
 
 (add-to-list 'package-archives
-	     '("melpa" . "http://melpa.milkbox.net/packages/"))
+             '("melpa" . "http://melpa.milkbox.net/packages/"))
+
+(add-to-list 'package-archives
+             '("org" . "http://orgmode.org/elpa/") t)
 
 (package-initialize)
 

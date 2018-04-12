@@ -88,6 +88,7 @@
                         pcre2el ;; use defaut regex.
                         dired+
                         dimmer
+                        banner-comment
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
