@@ -86,7 +86,7 @@
                         string-inflection
                         evil-numbers
                         pcre2el ;; use defaut regex.
-                        dired+
+                        ;; dired+
                         dimmer
                         banner-comment
                         ))
@@ -134,6 +134,10 @@
 (defvar user-init-python-paths
   '("/Library/Python/2.7/site-packages")
   )
+
+
+(put 'flycheck-scss-stylelint-executable 'safe-local-variable 'stringp)
+(put 'flycheck-css-stylelint-executable 'safe-local-variable 'stringp)
 
 (message "load configuration")
 (provide 'user-init-config)
