@@ -21,8 +21,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;
 ;; enable linum mode ;;
 ;;;;;;;;;;;;;;;;;;;;;;;
-(when (fboundp 'global-linum-mode)
-  (global-linum-mode 1))
+(when (fboundp 'global-display-line-numbers-mode)
+  (global-display-line-numbers-mode t))
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; enable narrowing ;;
