@@ -45,6 +45,8 @@
 
 ;; Adaptative sorting of candidates for Helm.
 (add-hook 'helm-after-initialize-hook #'(lambda ()
+                                          (helm-mode 1)
+                                          ;; Toggle adaptive sorting in all sources.
                                           (helm-adaptive-mode 1)
                                           ;; autoresizes helm window
                                           (helm-autoresize-mode 1)

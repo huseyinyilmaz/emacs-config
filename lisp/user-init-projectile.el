@@ -6,7 +6,7 @@
 ;;; Code:
 
 (projectile-mode)
-
+(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
 ;; https://github.com/bbatsov/projectile/issues/1183
 (setq projectile-mode-line
          '(:eval (format " Projectile[%s]"
