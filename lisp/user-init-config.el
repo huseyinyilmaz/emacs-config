@@ -15,6 +15,7 @@
                         multiple-cursors
                         web-mode
                         js2-mode
+                        pug-mode
                         tide
                         add-node-modules-path
                         flycheck
