@@ -18,7 +18,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; use eslint with web-mode for jsx files
-(flycheck-add-mode 'javascript-eslint 'web-mode)
+;; web-mode is already in the list.
+;; (flycheck-add-mode 'javascript-eslint 'web-mode)
 
 ;; (eval-after-load "flycheck"
 ;;   '(setq flycheck-javascript-eslint-executable "yarn eslint --")

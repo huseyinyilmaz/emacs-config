@@ -17,6 +17,8 @@
               (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
               (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
               ;; (add-to-list 'auto-mode-alist '("\\.jsx?\\'" . web-mode))
+              ;; (add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
+              (add-to-list 'auto-mode-alist '("\\.jsx?\\'" . rjsx-mode))
 
               ;; Set default engine to django
               (defvar web-mode-engines-alist
