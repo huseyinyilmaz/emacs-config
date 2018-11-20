@@ -3,6 +3,11 @@
 ;;; Commentary:
 ;;
 
+;; Note:
+;;
+;; to install fonts run M-x all-the-icons-install-fonts
+;;
+
 ; How tall the mode-line should be (only respected in GUI Emacs).
 (setq doom-modeline-height 25)
 
