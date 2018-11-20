@@ -5,8 +5,8 @@
 
 ;;; Code:
 
-(setq sml/theme 'powerline)
-(sml/setup)
+;; (setq sml/theme 'powerline)
+;; (sml/setup)
 ;;(powerline-default-theme)
 
 (provide 'user-init-modeline)

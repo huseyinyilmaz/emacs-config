@@ -41,6 +41,7 @@
 (require 'user-init-dashboard)
 (require 'user-init-ibuffer-mode)
 (require 'user-init-tide)
+(require 'user-init-doommodeline)
 
 
 (require 'user-init-default-modes)

@@ -60,9 +60,10 @@
                         ;; php
                         php-mode
                         ;; Mode line
-                        powerline
-                        smart-mode-line
-                        smart-mode-line-powerline-theme
+                        ;; powerline
+                        ;; smart-mode-line
+                        ;; smart-mode-line-powerline-theme
+                        doom-modeline
                         ;; Ansible
                         ansible
                         ansible-doc
