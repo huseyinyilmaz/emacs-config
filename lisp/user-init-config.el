@@ -91,6 +91,7 @@
                         evil-numbers
                         pcre2el ;; use defaut regex.
                         ;; dired+
+                        direnv
                         dimmer
                         banner-comment
                         ))
