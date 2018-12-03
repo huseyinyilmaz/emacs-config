@@ -57,6 +57,7 @@
                         spacegray-theme
                         atom-dark-theme
                         gruvbox-theme
+                        darktooth-theme
                         ;; php
                         php-mode
                         ;; Mode line

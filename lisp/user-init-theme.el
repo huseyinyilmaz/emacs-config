@@ -49,14 +49,20 @@
   (load-theme 'base16-google-dark t)
   )
 
+(defun user-init-configure-darktooth ()
+  "Configure atom dark theme."
+  (load-theme 'darktooth t)
+  )
+
 ;;In order to change theme, change initilialization function here.
 ;; (add-hook 'after-init-hook 'user-init-configure-dracula)
 ;; (add-hook 'after-init-hook 'user-init-configure-monokai)
 ;; (add-hook 'after-init-hook#'user-init-configure-solarized)
 ;; (add-hook 'after-init-hook 'user-init-configure-atom-dark)
-(add-hook 'after-init-hook 'user-init-configure-gruvbox)
+;; (add-hook 'after-init-hook 'user-init-configure-gruvbox)
 ;; (add-hook 'after-init-hook 'user-init-configure-zenburn)
 ;; (add-hook 'after-init-hook 'user-init-configure-google-dark)
+(add-hook 'after-init-hook 'user-init-configure-darktooth)
 
 (message "config theme")
 (provide 'user-init-theme)
