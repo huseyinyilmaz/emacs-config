@@ -10,8 +10,10 @@
 (require 'flycheck-color-mode-line)
 
 (eval-after-load "flycheck"
-  '(add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
-  )
+  ( lambda ()
+    (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
+    (add-hook 'flycheck-mode-hook 'flycheck-inline-mode)
+  ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Javascript configuration ;;

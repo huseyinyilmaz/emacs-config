@@ -21,6 +21,7 @@
                         add-node-modules-path
                         flycheck
                         flycheck-color-mode-line
+                        flycheck-inline
                         yasnippet
                         org
                         ;;python-mode
