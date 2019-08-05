@@ -14,7 +14,15 @@
 ;;               (when (projectile-project-p)
 ;;                (setenv "PYTHONPATH" (projectile-project-root)))))
 
-(add-hook 'python-mode-hook 'anaconda-mode)
+(add-hook 'python-mode-hook
+          #'(lambda ()
+              (anaconda-mode)
+              (venv-projectile-auto-workon)
+              (setq venv-dirlookup-names '(".venv" "venv" "env"))
+              (message "python mode is activated")
+              )
+          )
+
 ;; (add-hook 'python-mode-hook 'eldoc-mode)
 ;; company anaconda integration is done in company configuration.
 
