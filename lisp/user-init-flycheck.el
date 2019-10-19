@@ -14,7 +14,6 @@
     (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
     (add-hook 'flycheck-mode-hook 'flycheck-inline-mode)
   ))
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Javascript configuration ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -56,6 +55,20 @@
 
 (eval-after-load 'flycheck
   '(define-key flycheck-mode-map (kbd "C-c ! h") 'helm-flycheck))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; add node modules mode ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (add-hook 'after-init-hook 'add-node-modules-path)
+
+(eval-after-load 'scss-mode
+  '(add-hook 'scss-mode-hook 'add-node-modules-path))
+
+;; (eval-after-load 'scss-mode
+;;   #'(add-hook 'scss-mode-hook 'add-node-modules-path))
+
+;; (eval-after-load 'scss-mode
+;;   #'(add-hook 'scss-mode-hook #'add-node-modules-path))
 
 
 

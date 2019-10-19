@@ -30,6 +30,16 @@ This configuration uses erlang-mode that comes with erlang distribution. So if y
 do erlang development you might need to change erlang-root-dir variable.
 (it is set in user-init-config.el file)
 
+optional rust requirement
+-------------------------
+
+Install racer to get company autocomplete, goto definition and type hints.
+::
+
+   https://github.com/racer-rust/racer
+
+
+
 Installation
 ============
 

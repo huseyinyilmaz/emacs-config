@@ -30,6 +30,7 @@
 (require 'user-init-git)
 (require 'user-init-org)
 (require 'user-init-go-mode)
+(require 'user-init-rust-mode)
 
 (require 'user-init-helm)
 (require 'user-init-helm-swoop)

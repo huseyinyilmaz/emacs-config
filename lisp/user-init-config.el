@@ -22,6 +22,7 @@
                         flycheck
                         flycheck-color-mode-line
                         flycheck-inline
+                        flycheck-rust
                         yasnippet
                         org
                         ;;python-mode
@@ -31,12 +32,15 @@
                         projectile
                         ibuffer-vc
                         ag ;; silver searcher support for projectile
+                        helm-rg
                         exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
                         ensime
                         ;;
                         go-mode
+                        rust-mode
+                        racer
                         ;; Haskell modes
                         intero
                         ;; various modes

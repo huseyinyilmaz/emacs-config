@@ -81,7 +81,6 @@
 
 (add-hook 'after-init-hook #'dimmer-mode)
 
-
 (provide 'user-init-default-modes)
 
 ;;; user-init-default-modes.el ends here
