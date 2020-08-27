@@ -9,20 +9,23 @@
 ;;; Code:
 
 ;; package resources
+
 ;; ("gnu" . "http://elpa.gnu.org/packages/")
 ;; ("marmalade" . "http://marmalade-repo.org/packages/")
 ;; ("melpa" . "http://melpa.milkbox.net/packages/")
 
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
+;; (setq package-archives '())
+
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/"))
+             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
-(add-to-list 'package-archives
-             '("org" . "http://orgmode.org/elpa/") t)
+;; (add-to-list 'package-archives
+;;              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
-(package-initialize)
+;; (add-to-list 'package-archives
+;;              '("org" . "http://orgmode.org/elpa/") t)
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -32,6 +35,7 @@
   (when (not (package-installed-p p))
     (package-refresh-contents)
     (package-install p)))
+
 
 (message "config packages")
 (provide 'user-init-packages)

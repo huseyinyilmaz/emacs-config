@@ -8,13 +8,13 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar user-packages '(company
                         company-anaconda
-                        company-tern
                         company-restclient
                         company-flow
                         anaconda-mode
                         multiple-cursors
                         web-mode
                         js2-mode
+                        prettier-js
                         rjsx-mode
                         pug-mode
                         tide
@@ -36,7 +36,6 @@
                         exec-path-from-shell
                         rainbow-delimiters
                         git-gutter-fringe
-                        ensime
                         ;;
                         go-mode
                         rust-mode
@@ -53,6 +52,7 @@
                         coffee-mode
                         json-reformat
                         jdee
+                        protobuf-mode
                         ;; Theme list
                         dracula-theme
                         zenburn-theme

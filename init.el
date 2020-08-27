@@ -29,14 +29,20 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   (quote
-    ("84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" default)))
+   '("84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" default))
  '(package-selected-packages
-   (quote
-    (vcl-mode yaml-mode whitespace-cleanup-mode which-key web-mode virtualenvwrapper string-inflection spacegray-theme smart-mode-line-powerline-theme scss-mode sass-mode rainbow-mode rainbow-delimiters pcre2el multiple-cursors move-text monokai-theme json-mode js2-mode jdee intero ibuffer-vc hl-sexp highlight-indentation helm-swoop helm-projectile helm-flycheck helm-ag gruvbox-theme go-mode git-gutter-fringe flycheck-mypy flycheck-color-mode-line exec-path-from-shell evil-numbers ensime elisp-slime-nav dracula-theme dockerfile-mode dimmer dashboard csv-mode company-tern company-restclient company-flow company-anaconda coffee-mode beacon base16-theme banner-comment atom-dark-theme ansible-doc ansible aggressive-indent ag add-node-modules-path ace-jump-mode)))
+   '(banner-comment dimmer direnv pcre2el evil-numbers string-inflection dashboard magit which-key move-text ace-jump-mode helm-ag helm-swoop helm-projectile helm-flycheck aggressive-indent highlight-indentation whitespace-cleanup-mode hl-sexp elisp-slime-nav beacon dockerfile-mode ansible-doc ansible doom-modeline php-mode darktooth-theme gruvbox-theme atom-dark-theme spacegray-theme base16-theme monokai-theme solarized-theme zenburn-theme dracula-theme protobuf-mode jdee coffee-mode rainbow-mode scss-mode sass-mode yaml-mode json-mode csv-mode intero racer rust-mode go-mode git-gutter-fringe rainbow-delimiters exec-path-from-shell helm-rg ag ibuffer-vc projectile slime flycheck-mypy virtualenvwrapper yasnippet flycheck-rust flycheck-inline flycheck-color-mode-line add-node-modules-path tide pug-mode rjsx-mode prettier-js js2-mode web-mode multiple-cursors company-flow company-restclient company-anaconda company))
  '(safe-local-variable-values
-   (quote
-    ((eval venv--activate-dir
+   '((eval prettier-mode t)
+     (eval setq flycheck-python-mypy-config "/Users/huseyin/GIVVA/recomendar/setup.cfg")
+     (eval setq flycheck-python-mypy-config "setup.cfg")
+     (eval setq flycheck-checker 'python-mypy)
+     (eval setq flycheck-checker "python-mypy")
+     (eval venv--activate-dir
+           (concat
+            (projectile-project-root)
+            "venv"))
+     (eval venv--activate-dir
            (concat projectile-project-root "/env"))
      (eval setq flycheck-css-stylelint-executable
            (concat projectile-project-root "/node_modules/.bin/stylelint"))
@@ -45,10 +51,11 @@
      (eval setq flycheck-css-stylelint-executable
            (concat projectile-project-root "/grandfolk/node_modules/.bin/stylelint"))
      (eval setq flycheck-scss-stylelint-executable
-           (concat projectile-project-root "/grandfolk/node_modules/.bin/stylelint"))))))
+           (concat projectile-project-root "/grandfolk/node_modules/.bin/stylelint")))))
 
 ;;; init.el ends here
 
 (require 'user-init)
 
 (provide 'init)
+(put 'set-goal-column 'disabled nil)

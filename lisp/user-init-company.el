@@ -8,7 +8,6 @@
 (add-hook 'after-init-hook #'(lambda()
                                (global-company-mode)
                                ;; Add company backends
-                               (add-to-list 'company-backends 'company-tern)
                                (add-to-list 'company-backends 'company-anaconda)
                                (add-to-list 'company-backends 'company-flow)
                                (add-to-list 'company-backends 'company-restclient)
