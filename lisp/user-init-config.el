@@ -14,7 +14,7 @@
                         multiple-cursors
                         web-mode
                         js2-mode
-                        prettier-js
+                        eslint-fix
                         rjsx-mode
                         pug-mode
                         tide
@@ -100,6 +100,7 @@
                         direnv
                         dimmer
                         banner-comment
+                        ;; eglot
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
