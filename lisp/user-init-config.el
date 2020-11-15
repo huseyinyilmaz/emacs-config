@@ -28,6 +28,7 @@
                         ;;python-mode
                         virtualenvwrapper
                         flycheck-mypy
+                        python-black
                         slime
                         projectile
                         ibuffer-vc
