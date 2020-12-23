@@ -44,6 +44,12 @@
 ;; enable electric indent mode ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (electric-indent-mode)
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+;; disable bell audio ;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+(setq ring-bell-function 'ignore)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; set regular-expression mode to string ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
