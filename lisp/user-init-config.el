@@ -79,7 +79,6 @@
                         ;; Others
                         beacon
                         elisp-slime-nav
-                        hl-sexp
                         whitespace-cleanup-mode
                         highlight-indentation
                         aggressive-indent

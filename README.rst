@@ -56,3 +56,18 @@ Customization
 
 You can add any customization you need to user-init-local.el file
 This file will run after the rest of the system is initialized.
+
+
+Random
+======
+Install missing icons
+
+::
+
+   (all-the-icons-install-fonts)
+
+Full screen
+
+::
+
+   (toggle-frame-fullscreen)
