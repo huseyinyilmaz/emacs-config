@@ -101,6 +101,8 @@
                         dimmer
                         banner-comment
                         ;; eglot
+                        lsp-mode
+                        helm-lsp
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

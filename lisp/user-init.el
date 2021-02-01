@@ -11,6 +11,8 @@
 (require 'user-init-packages)
 (require 'user-init-global)
 ;; (require 'user-init-flyspell)
+(require 'user-init-lsp-mode)
+
 (require 'user-init-company)
 (require 'user-init-anaconda)
 (require 'user-init-web-mode)

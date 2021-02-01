@@ -16,7 +16,7 @@
 
 (add-hook 'python-mode-hook
           #'(lambda ()
-              (anaconda-mode)
+              ;; (anaconda-mode)
               (venv-projectile-auto-workon)
               (setq venv-dirlookup-names '(".venv" "venv" "env"))
               (message "python mode is activated")
