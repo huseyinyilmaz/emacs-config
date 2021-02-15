@@ -12,6 +12,8 @@ I use specific keyboard layout for map. In order to set it up.
 
 First run this to set all arrow keys to control.
 
+Key values are coming from here: https://developer.apple.com/library/archive/technotes/tn2450/_index.html#//apple_ref/doc/uid/DTS40017618-CH1-KEY_TABLE_USAGES
+
 ::
 
    hidutil property --set '{"UserKeyMapping":
@@ -31,6 +33,7 @@ After that go to System Preferences > Keyboard > Modifier Keys and set fn key to
 
 If you need to reset arrow keys do:
 ::
+
    hidutil property --set '{"UserKeyMapping": []}'
 
 
