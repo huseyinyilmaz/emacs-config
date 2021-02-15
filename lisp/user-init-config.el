@@ -41,6 +41,9 @@
                         go-mode
                         rust-mode
                         racer
+                        ;; scala
+                        lsp-metals
+                        scala-mode
                         ;; Haskell modes
                         intero
                         ;; various modes
