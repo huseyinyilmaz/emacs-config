@@ -6,6 +6,34 @@ Requirements
 ============
 This emacs configuration is for emacs 24 or higher.
 
+Keyboard remap for mac os
+=========================
+I use specific keyboard layout for map. In order to set it up.
+
+First run this to set all arrow keys to control.
+
+::
+
+   hidutil property --set '{"UserKeyMapping":
+    [{"HIDKeyboardModifierMappingSrc":0x70000004F, "HIDKeyboardModifierMappingDst":0x7000000E4},
+     {"HIDKeyboardModifierMappingSrc":0x700000050, "HIDKeyboardModifierMappingDst":0x7000000E4},
+     {"HIDKeyboardModifierMappingSrc":0x700000051, "HIDKeyboardModifierMappingDst":0x7000000E4},
+     {"HIDKeyboardModifierMappingSrc":0x700000052, "HIDKeyboardModifierMappingDst":0x7000000E4},
+
+     {"HIDKeyboardModifierMappingSrc":0x70000005A, "HIDKeyboardModifierMappingDst":0x7000000E4},
+     {"HIDKeyboardModifierMappingSrc":0x70000005C, "HIDKeyboardModifierMappingDst":0x7000000E4},
+     {"HIDKeyboardModifierMappingSrc":0x70000005E, "HIDKeyboardModifierMappingDst":0x7000000E4},
+     {"HIDKeyboardModifierMappingSrc":0x700000060, "HIDKeyboardModifierMappingDst":0x7000000E4},
+    ]
+   }'
+
+After that go to System Preferences > Keyboard > Modifier Keys and set fn key to control.
+
+If you need to reset arrow keys do:
+::
+   hidutil property --set '{"UserKeyMapping": []}'
+
+
 optional python requirements
 ----------------------------
 Install python requirements from requirements.pip file.
