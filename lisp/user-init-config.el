@@ -45,7 +45,7 @@
                         lsp-metals
                         scala-mode
                         ;; Haskell modes
-                        intero
+                        ;; intero
                         ;; various modes
                         csv-mode
                         json-mode

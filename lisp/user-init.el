@@ -22,7 +22,7 @@
 (require 'user-init-erlang-mode)
 (require 'user-init-octave-mode)
 (require 'user-init-slime)
-(require 'user-init-haskell-mode)
+;; (require 'user-init-haskell-mode)
 (require 'user-init-exec-path-from-shell)
 (require 'user-init-custom)
 (require 'user-init-theme)
