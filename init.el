@@ -33,7 +33,38 @@
  '(package-selected-packages
    '(eslint-fix banner-comment dimmer direnv pcre2el evil-numbers string-inflection dashboard magit which-key move-text ace-jump-mode helm-ag helm-swoop helm-projectile helm-flycheck aggressive-indent highlight-indentation whitespace-cleanup-mode hl-sexp elisp-slime-nav beacon dockerfile-mode ansible-doc ansible doom-modeline php-mode darktooth-theme gruvbox-theme atom-dark-theme spacegray-theme base16-theme monokai-theme solarized-theme zenburn-theme dracula-theme protobuf-mode jdee coffee-mode rainbow-mode scss-mode sass-mode yaml-mode json-mode csv-mode racer rust-mode go-mode git-gutter-fringe rainbow-delimiters exec-path-from-shell helm-rg ag ibuffer-vc projectile slime flycheck-mypy virtualenvwrapper yasnippet flycheck-rust flycheck-inline flycheck-color-mode-line add-node-modules-path tide pug-mode rjsx-mode prettier-js js2-mode web-mode multiple-cursors company-flow company-restclient company-anaconda company))
  '(safe-local-variable-values
-   '((eval set-)
+   '((eval setq exec-path
+           (cons "/Users/huseyinyilmaz/Library/Application Support/Coursier/bin" exec-path))
+     (eval setenv "PATH"
+           (concat "/Users/huseyinyilmaz/Library/Application Support/Coursier/bin" ":"
+                   (getenv "PATH")))
+     (eval setq exec-path
+           (cons
+            (concat
+             (projectile-project-root)
+             "node_modules/.bin")
+            exec-path))
+     (eval setq exec-path
+           (append exec-path
+                   (concat
+                    (projectile-project-root)
+                    "node_modules/.bin")))
+     (eval setq exec-path
+           (append exec-path
+                   '((concat
+                      (projectile-project-root)
+                      '("node_modules/.bin")))))
+     (eval setq exec-path
+           (append exec-path
+                   (concat
+                    (projectile-project-root)
+                    '("node_modules/.bin"))))
+     (eval setenv "PATH"
+           (concat
+            (projectile-project-root)
+            "node_modules/.bin" ":"
+            (getenv "PATH")))
+     (eval set-)
      (eval setenv "JAVA_HOME" "~/Library/Caches/Coursier/jvm/adopt@1.8.0-272/Contents/Home")
      (eval setenv "JAVA_HOME" "/Users/huseyin/Library/Caches/Coursier/jvm/adopt@1.8.0-272/Contents/Home")
      (eval add-hook 'python-mode-hook

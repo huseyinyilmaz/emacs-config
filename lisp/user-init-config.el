@@ -25,6 +25,7 @@
                         flycheck-rust
                         yasnippet
                         org
+                        editorconfig
                         ;;python-mode
                         virtualenvwrapper
                         flycheck-mypy

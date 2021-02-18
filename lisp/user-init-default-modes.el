@@ -81,6 +81,14 @@
 
 (add-hook 'after-init-hook #'dimmer-mode)
 
+;;;;;;;;;;;;;;;;;;;;;;;
+;; editorconfig mode ;;
+;;;;;;;;;;;;;;;;;;;;;;;
+(add-hook 'after-init-hook (editorconfig-mode 1))
+
+
+
+
 (provide 'user-init-default-modes)
 
 ;;; user-init-default-modes.el ends here

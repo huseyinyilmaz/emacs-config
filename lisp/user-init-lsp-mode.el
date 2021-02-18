@@ -23,6 +23,7 @@
 
 (add-hook 'go-mode-hook 'set-lsp-mode)
 (add-hook 'scala-mode-hook 'set-lsp-mode)
+(add-hook 'typescript-mode-hook 'set-lsp-mode)
 
 (add-hook 'python-mode-hook
           #'(lambda ()
