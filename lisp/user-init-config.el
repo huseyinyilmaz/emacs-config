@@ -12,8 +12,10 @@
                         company-flow
                         anaconda-mode
                         multiple-cursors
+                        format-all
                         web-mode
                         js2-mode
+                        prettier-js
                         eslint-fix
                         rjsx-mode
                         pug-mode
@@ -56,6 +58,7 @@
                         rainbow-mode
                         coffee-mode
                         json-reformat
+                        reformatter
                         jdee
                         protobuf-mode
                         ;; Theme list
@@ -107,6 +110,9 @@
                         ;; eglot
                         lsp-mode
                         helm-lsp
+                        ;; terraform
+                        terraform-mode
+                        terraform-doc
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

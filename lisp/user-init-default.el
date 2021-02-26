@@ -82,8 +82,8 @@
 ;;;;;;;;;;;;;;;;;;;;;
 ;; set keybindings ;;
 ;;;;;;;;;;;;;;;;;;;;;
-;; (global-set-key (kbd "C-x e") 'eval-print-last-sexp)
-
+(global-set-key (kbd "C-x e") 'eval-print-last-sexp)
+(setq eval-expression-print-length 50)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; enable highlock mode for all parents ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

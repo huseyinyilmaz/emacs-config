@@ -94,6 +94,14 @@
 (eval-after-load 'js2-mode
   '(add-hook 'js2-mode-hook #'add-node-modules-path))
 
+(eval-after-load 'typescript-mode
+  '(progn
+     (add-hook 'typescript-mode-hook #'add-node-modules-path)
+))
+
+;; (add-hook 'js2-mode-hook 'prettier-js-mode)
+;; (add-hook 'web-mode-hook 'prettier-js-mode)
+
 (message "config web-mode")
 (provide 'user-init-web-mode)
 ;;; user-init-web-mode.el ends here
