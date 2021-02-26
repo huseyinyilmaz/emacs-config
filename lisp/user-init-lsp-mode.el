@@ -36,6 +36,7 @@
 (add-hook 'go-mode-hook 'user-init-set-lsp-mode)
 (add-hook 'scala-mode-hook 'user-init-set-lsp-mode)
 (add-hook 'typescript-mode-hook 'user-init-set-lsp-mode)
+(add-hook 'rust-mode-hook 'user-init-set-lsp-mode)
 (add-hook 'python-mode-hook 'user-init-set-lsp-mode)
 
 ;; (add-hook 'python-mode-hook #'lsp)
