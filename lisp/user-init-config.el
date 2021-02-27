@@ -113,6 +113,8 @@
                         ;; terraform
                         terraform-mode
                         terraform-doc
+                        ;;
+                        vterm
                         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
