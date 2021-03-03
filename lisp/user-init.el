@@ -43,7 +43,7 @@
 (require 'user-init-modeline)
 (require 'user-init-dashboard)
 (require 'user-init-ibuffer-mode)
-(require 'user-init-tide)
+;; (require 'user-init-tide)
 (require 'user-init-doommodeline)
 ;; (require 'user-init-direnv)
 (require 'user-init-format-all-mode)

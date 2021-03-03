@@ -13,11 +13,16 @@
 (defun user-init-set-lsp-mode ()
   "Set lsp mode."
   (setq gc-cons-threshold 1000000000)
-  (setq read-process-output-max (* 1024 1024)) ;; 1mb
+  (setq read-process-output-max (* 10 1024 1024)) ;; 1mb
   (setq lsp-completion-provider :capf)
   (setq lsp-idle-delay 0.500)
   (setq lsp-keymap-prefix "C-c l")
   (setq lsp-lens-enable t)
+  (setq lsp-ui-sideline-show-diagnostics t)
+  (setq lsp-ui-sideline-show-code-actions t)
+  ;; (setq lsp-ui-sideline-enable t)
+  ;; (setq lsp-ui-sideline-update-mode 'line)
+  (setq lsp-ui-sideline-show-hover t)
   (lsp)
   (message "lsp mode is activated")
 )

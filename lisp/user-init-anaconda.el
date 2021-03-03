@@ -19,6 +19,7 @@
               ;; (anaconda-mode)
               (venv-projectile-auto-workon)
               (setq venv-dirlookup-names '(".venv" "venv" "env"))
+              (turn-on-eldoc-mode)
               (message "python mode is activated")
               )
           )

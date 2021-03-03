@@ -109,6 +109,7 @@
                         banner-comment
                         ;; eglot
                         lsp-mode
+                        lsp-ui
                         helm-lsp
                         ;; terraform
                         terraform-mode
