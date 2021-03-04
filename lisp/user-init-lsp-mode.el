@@ -23,6 +23,9 @@
   ;; (setq lsp-ui-sideline-enable t)
   ;; (setq lsp-ui-sideline-update-mode 'line)
   (setq lsp-ui-sideline-show-hover t)
+  ;; lsp ui peek
+  (setq lsp-ui-peek-enable t)
+  ;; start lsp
   (lsp)
   (message "lsp mode is activated")
 )
