@@ -25,6 +25,7 @@
   (setq lsp-ui-sideline-show-hover t)
   ;; lsp ui peek
   (setq lsp-ui-peek-enable t)
+  (setq lsp-ui-doc-use-childframe nil)
   ;; start lsp
   (lsp)
   (message "lsp mode is activated")
