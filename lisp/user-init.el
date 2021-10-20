@@ -36,7 +36,7 @@
 
 (require 'user-init-helm)
 (require 'user-init-helm-swoop)
-(require 'user-init-php-mode)
+;; (require 'user-init-php-mode)
 
 (require 'user-init-screensaver)
 (require 'user-init-ace-jump-mode)

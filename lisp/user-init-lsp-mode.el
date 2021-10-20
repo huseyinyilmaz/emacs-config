@@ -26,8 +26,12 @@
   ;; lsp ui peek
   (setq lsp-ui-peek-enable t)
   (setq lsp-ui-doc-use-childframe nil)
+  ;; this stops freezes when get lsp results
+  (setq lsp-print-performance t)
   ;; start lsp
+  (require 'lsp-pyright)
   (lsp)
+  ;; (lsp-deferred)
   (message "lsp mode is activated")
 )
 

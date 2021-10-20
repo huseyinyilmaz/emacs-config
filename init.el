@@ -33,7 +33,21 @@
  '(package-selected-packages
    '(eslint-fix banner-comment dimmer direnv pcre2el evil-numbers string-inflection dashboard magit which-key move-text ace-jump-mode helm-ag helm-swoop helm-projectile helm-flycheck aggressive-indent highlight-indentation whitespace-cleanup-mode hl-sexp elisp-slime-nav beacon dockerfile-mode ansible-doc ansible doom-modeline php-mode darktooth-theme gruvbox-theme atom-dark-theme spacegray-theme base16-theme monokai-theme solarized-theme zenburn-theme dracula-theme protobuf-mode jdee coffee-mode rainbow-mode scss-mode sass-mode yaml-mode json-mode csv-mode racer rust-mode go-mode git-gutter-fringe rainbow-delimiters exec-path-from-shell helm-rg ag ibuffer-vc projectile slime flycheck-mypy virtualenvwrapper yasnippet flycheck-rust flycheck-inline flycheck-color-mode-line add-node-modules-path tide pug-mode rjsx-mode prettier-js js2-mode web-mode multiple-cursors company-flow company-restclient company-anaconda company))
  '(safe-local-variable-values
-   '((eval setq exec-path
+   '((eval lsp-register-custom-settings
+           '(("gopls.buildFlags"
+              ["-tags=integration"])))
+     (eval message "dir-env is loaded")
+     (eval setq flycheck-checker "python-pyright")
+     (eval setq flycheck-checker 'python-pyright)
+     (eval progn
+           (add-hook 'before-save-hook #'lsp-format-buffer t t))
+     (eval setenv "GOBIN" "/Users/huseyinyilmaz/go")
+     (eval setenv "GOPATH" "/Users/huseyinyilmaz/go")
+     (eval setenv "GOPATH" "~/go")
+     (eval progn
+           (add-hook 'before-save-hook #'lsp-format-buffer t t)
+           (add-hook 'before-save-hook #'lsp-organize-imports t t))
+     (eval setq exec-path
            (cons "/Users/huseyinyilmaz/Library/Application Support/Coursier/bin" exec-path))
      (eval setenv "PATH"
            (concat "/Users/huseyinyilmaz/Library/Application Support/Coursier/bin" ":"

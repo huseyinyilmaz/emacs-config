@@ -28,6 +28,7 @@
                         yasnippet
                         org
                         editorconfig
+                        lua-mode
                         ;;python-mode
                         virtualenvwrapper
                         flycheck-mypy
@@ -111,6 +112,7 @@
                         lsp-mode
                         lsp-ui
                         helm-lsp
+                        lsp-pyright
                         ;; terraform
                         terraform-mode
                         terraform-doc
